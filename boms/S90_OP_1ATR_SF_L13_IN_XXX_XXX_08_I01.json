@@ -1,0 +1,58 @@
+{
+    "firmware": [
+        {
+            "board": "MCPX2015-SMD",
+            "name": "P9000",
+            "version": "v0.0.4",
+            "repo": {
+                "url": "https://github.com/eca-automs/mcpx-firmware-parallel.git"
+            }
+        },
+        {
+            "board": "PER16B-SMD",
+            "name": "PEXPIO16",
+            "version": "v0.0.4",
+            "repo": {
+                "url": "https://github.com/eca-automs/mcpx-firmware-parallel.git"
+            }
+        }
+    ],
+    "bomList": [
+        {
+            "sku": "TMK0.55",
+            "name": "TR1",
+            "description": "trasformatore 1",
+            "qty": 1
+        },
+        {
+            "sku": "TMK0.55",
+            "name": "TR2",
+            "description": "trasformatore 2",
+            "qty": 1
+        },
+        {
+            "sku": "MCPX2015-SMD",
+            "name": "mcpx2015",
+            "description": "scheda madre quadro",
+            "qty": 1,
+            "trackId": {
+                "active": true
+            }
+        },
+        {
+            "sku": "PER16B-SMD",
+            "name": "perif16",
+            "description": "periferica 16 (chiamate + posizione)",
+            "qty": 1,
+            "trackId": {
+                "active": true
+            }
+        },
+        {
+            "sku": "PER16R-SMD",
+            "name": "perif16R",
+            "description": "interfaccia relè periferica 16 (chiamate + posizione)",
+            "qty": 1
+        }
+    ]
+}

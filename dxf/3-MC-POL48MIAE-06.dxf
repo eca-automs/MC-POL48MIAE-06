@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-231.5706766917293
+243.5065666041276
  22
-150.7330827067669
+151.2861163227017
  13
 0
  23
@@ -1143,9 +1143,9 @@ AcDbViewportTableRecord
  37
 0
  40
-305.9323308270676
+308.1444652908067
  41
-1.655474452554744
+1.799276672694394
  42
 50
  43
@@ -2423,7 +2423,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-standard
+iso
  70
     0
  40
@@ -2437,7 +2437,7 @@ standard
  42
 1
   3
-standard
+iso
   4
 
   0
@@ -2451,7 +2451,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-iso
+standard
  70
     0
  40
@@ -2465,7 +2465,7 @@ iso
  42
 1
   3
-iso
+standard
   4
 
   0
@@ -15779,49 +15779,9 @@ AcDbLine
  21
 109.9819209949416
   0
-INSERT
-  5
-205
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-vd1
- 10
-253
- 20
-110
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-0
- 45
-0
-  0
 LINE
   5
-206
+205
 100
 AcDbEntity
   8
@@ -15845,7 +15805,7 @@ AcDbLine
   0
 LINE
   5
-207
+206
 100
 AcDbEntity
   8
@@ -15869,7 +15829,7 @@ AcDbLine
   0
 LINE
   5
-208
+207
 100
 AcDbEntity
   8
@@ -15893,7 +15853,7 @@ AcDbLine
   0
 LINE
   5
-209
+208
 100
 AcDbEntity
   8
@@ -15917,7 +15877,7 @@ AcDbLine
   0
 LINE
   5
-20A
+209
 100
 AcDbEntity
   8
@@ -15941,7 +15901,7 @@ AcDbLine
   0
 MTEXT
   5
-20B
+20A
 100
 AcDbEntity
   8
@@ -15984,6 +15944,70 @@ standard
     2
  44
 1
+  0
+INSERT
+  5
+20B
+100
+AcDbEntity
+  8
+schematic
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+vd1
+ 10
+240.3657405270434
+ 20
+88.34806360099464
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+88.5312
+ 70
+    1
+ 71
+    1
+ 44
+0
+ 45
+0
+  0
+LINE
+  5
+20C
+100
+AcDbEntity
+  8
+schematic
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+264.7634276300332
+ 20
+110.1047136179055
+ 11
+251.9605539535326
+ 21
+110.1047136179055
   0
 ENDSEC
   0

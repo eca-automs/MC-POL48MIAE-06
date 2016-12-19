@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-223.9164711954839
+265.5173760667767
  22
-144.9596989833022
+145.4573451496255
  13
 0
  23
@@ -1143,9 +1143,9 @@ AcDbViewportTableRecord
  37
 0
  40
-281.6947341945022
+283.73161152643
  41
-1.655474452554744
+2.227848101265823
  42
 50
  43
@@ -8205,52 +8205,6 @@ F6
 100
 AcDbEntity
   8
-text
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-210
- 20
-200
- 30
-0
- 40
-10
- 41
-179.7222201022014
- 71
-    2
- 72
-    1
-  1
-SCHEMA MC-POL48MIAE-06\P\PVERSIONE 0.0.0
-  7
-standard
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-F7
-100
-AcDbEntity
-  8
 frame-title
   6
 ByLayer
@@ -8276,6 +8230,52 @@ AcDbMText
     1
   1
 Schema: MC-POL48MIAE-06\PAutore: Belardi\PData: 01/16\PFoglio: 1 di 17
+  7
+standard
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+F7
+100
+AcDbEntity
+  8
+text
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+210
+ 20
+200
+ 30
+0
+ 40
+10
+ 41
+179.7222201022014
+ 71
+    2
+ 72
+    1
+  1
+SCHEMA MC-POL48MIAE-06\P\PVERSIONE 0.0.1
   7
 standard
 210

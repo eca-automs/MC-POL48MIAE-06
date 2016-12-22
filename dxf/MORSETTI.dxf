@@ -23,17 +23,17 @@ $INSBASE
   9
 $EXTMIN
  10
-10000000000
+0
  20
-10000000000
+0
  30
 0
   9
 $EXTMAX
  10
--10000000000
+297
  20
--10000000000
+210
  30
 0
   9
@@ -1121,9 +1121,9 @@ AcDbViewportTableRecord
  21
 1
  12
-172.3733583489681
+164.6449704142012
  22
-106.9699812382739
+106.2426035502959
  13
 0
  23
@@ -1149,9 +1149,9 @@ AcDbViewportTableRecord
  37
 0
  40
-217.8799249530957
+214.9704142011834
  41
-1.799276672694394
+1.680924855491329
  42
 50
  43
@@ -2363,7 +2363,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-gost_a
+standard
  70
     0
  40
@@ -2377,7 +2377,7 @@ gost_a
  42
 1
   3
-gost_a
+standard
   4
 
   0
@@ -2391,7 +2391,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-standard
+gost_a
  70
     0
  40
@@ -2405,7 +2405,7 @@ standard
  42
 1
   3
-standard
+gost_a
   4
 
   0
@@ -54761,52 +54761,6 @@ ByLayer
 100
 AcDbMText
  10
-7.091932457786116
- 20
-78.40525328330207
- 30
-0
- 40
-3
- 41
-14.00000000000014
- 71
-    1
- 72
-    1
-  1
-modello
-  7
-standard
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-785
-100
-AcDbEntity
-  8
-labels
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
 226.4952315493089
  20
 168.6170485489929
@@ -54839,7 +54793,7 @@ standard
   0
 MTEXT
   5
-786
+785
 100
 AcDbEntity
   8
@@ -54885,7 +54839,7 @@ standard
   0
 MTEXT
   5
-787
+786
 100
 AcDbEntity
   8
@@ -54931,7 +54885,7 @@ standard
   0
 MTEXT
   5
-788
+787
 100
 AcDbEntity
   8
@@ -54977,7 +54931,7 @@ standard
   0
 MTEXT
   5
-789
+788
 100
 AcDbEntity
   8
@@ -55006,6 +54960,52 @@ AcDbMText
     1
   1
 MC-POL48MIAE-06
+  7
+standard
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+789
+100
+AcDbEntity
+  8
+labels
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+5
+ 20
+79
+ 30
+0
+ 40
+2
+ 41
+9.333333333333426
+ 71
+    1
+ 72
+    1
+  1
+modello
   7
 standard
 210

@@ -1,0 +1,44 @@
+1 - 2                        EXTRA CORSA
+2  -4                        ALT E BOTTONIERA MANUTENZIONE
+4 - 5                        INTER FOSSA
+5 - 6                        ALT CABINA
+6 - 7                        PARACADUTE
+7 - 8                        PRELIMINARI
+8 - 9                        PORTE CABINA(SIA IN BATTENTE CHE IN AUTOMATICO)
+9 - 10                       BLOCCHI
+CPF - PFD                    PRE-FINE CORSA DISCESA
+CPF - PFS                    PRE-FINE CORSA SALITA
+CPF - 82                     PONTICELLO PER ESCLUDERE PRE-FINE CORSA
+MA - MB - GND                DEVIATORE MANUTENZIONE
+UP - DW                      PULSANTI ISPEZIONE
+CB                           COMUNE CHIAMATE
+0 - 1...                     CHIAMATE CABINA (SU PERIFERICA)
+0 - 1...(SALITA)             CHIAMATE DI PIANO SALITA (SU PERIFERICA)
+0 - 1...(DISCESA)            CHIAMATE DI PIANO DISCESA (SU PERIFERICA)
+GND - FCD                    BISTABILE FINE CORSA DISCESA
+GND - FCS                    BISTABILE FINE CORSA SALITA
+GND - ID                     INDUTTORE CONTEGGIO DISCESA
+GND - IS                     INDUTTORE CONTEGGIO SALITA
+GND - IP1, GND - IP2         INDUTTORI CABINA AL PIANO E ZONA SICUREZZA
+GND - IAX                    INDUTTORE FERMATA CON PIANI CORTI ESTREMI
+GND - PA                     PULSANTE APERTURA PORTE
+GND - SVR                    CONTATTO SOVRACCARICO
+GND - CM1                    COSTOLA MOBILE - FOTOCELLULA LATO 1
+GND - CM2                    COSTOLA MOBILE - FOTOCELLULA LATO 2
+GND - CCP                    CONTATTO CABINA COMPLETA
+GND - PRR                    PULSANTE PARTENZA RAPIDA IN CABINA
+
+CFC - FA1                    CONTATTO FINECORSA APERTURA PORTE LATO 1
+CFC - FC1                    CONTATTO FINECORSA CHIUSURA PORTE LATO 1
+CFC - FA2                    CONTATTO FINECORSA APERTURA PORTE LATO 2
+CFC - FC2                    CONTATTO FINECORSA CHIUSURA PORTE LATO 2
+
+CL                           COMUNE LUMINOSE
+CL - 0, CL - 1...            SEGNALAZIONE POSIZIONE (SU PERIFERICA)
+CL - FS                      SEGNALAZIONE FRECCIA SALITA
+CL - FD                      SEGNALAZIONE FRECCIA DISCESA
+CL - FSX                     SEGNALAZIONE PROSSIMA PARTENZA SALITA
+CL  -FDX                     SEGNALAZIONE PROSSIMA PARTENZA DISCESA
+CL - SV                      SEGNALAZIONE SOVRACCARICO
+CL - GON                     SEGANALZIONE GONG IN CABINA
+PE                           RITORNO PRESENTE

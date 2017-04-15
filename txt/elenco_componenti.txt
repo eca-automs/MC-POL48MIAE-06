@@ -1,0 +1,44 @@
+ALB                          CARICA BATTERIA BC 12V
+CFS                          RELÈ DI FASE
+AMC1                         ALIMENTATORE MCP2015X, RSS 24V
+AMC2                         ALIMENTATORE MCP2015X, RSS 24V
+AB1                          CARICABATTERIE BATTERIE EMERGENZA 24V
+AB2                          CARICABATTERIE BATTERIE EMERGENZA 24V
+BC                           BATTERIA ALLARME 12V 7AH
+F1                           FUSIBILE 4A TR1
+F2                           FUSIBILE 4A TR2
+F3                           FUSIBILE 4A CIRCUITO MANOVRA
+F4                           FUSIBILE 4A CIRCUITO LUMINOSE
+F5 - F6                      FUSIBILE MOTORE PORTE TRIFASE
+F7                           FUSIBILE 4A OPERATORE PORTE ELETTRONICO
+F8                           FUSIBILE PATTINO RETRATTILE
+F9                           FUSIBILE 4A PROTEZIONE CIRCUITO VALVOLE
+F10                          FUSIBILE 4A PROTEZIONE +24VDC GRUPPO BATTERIE
+F11                          FUSIBILE 4A PROTEZIONE +48VDC GRUPPO BATTERIE
+
+VA                           VALVOLA MAGNETOTERMICA PROTEZIONE CIRCUITO MANOVRA
+TR1                          TRASFORMATORE MONOFASE / TRIFASE ALIMENTAZIONE QUADRO
+TR2                          TRASFORMATORE MONOFASE ALIMENTAZIONE QUADRO
+
+MCP2015X-SMD                 SCHEDA MADRE MICROPROCESSORE
+PER16B-SMD                   SCHEDA ESPANSIONE CHIAMATE-LUMINOSE
+L1307                        SCHEDA LEGGE 13
+MIAE                         SCHEDA EMERGENZA SMS
+SMS-START                    SOFT-STARTER SMS
+
+Y                            TELERUTTORE STELLA
+P                            TELERUTTORE PROTEZIONE
+DIS                          TELERUTTORE DISCESA
+SAL                          TELERUTTORE SALITA
+PV                           RELÈ BASSA VELOCITÀ
+PX                           AUSILIARIO TELERUTTORE PROTEZIONE
+SX                           AUSILIARIO TELERUTTORE SALITA
+YX                           AUSILIARIO TELERUTTORE STELLA
+RP                           RELÈ PATTINO
+AP1 - AP2                    RELÈ APERTURA
+CP1 - CP2                    RELÈ CHIUSURA
+RSS                          RELÈ SICUREZZA
+RD1                          RADDRIZZATORE MANOVRA
+RD2                          RADDRIZZATORE LUMINOSE
+RD3                          RADDRIZZATORE VALVOLE > 48V
+RD4                          RADDRIZZATORE PATTINO

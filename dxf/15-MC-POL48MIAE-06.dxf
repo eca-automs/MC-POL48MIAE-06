@@ -91,7 +91,7 @@ STANDARD
   9
 $CLAYER
   8
-labels
+schematic
   9
 $CELTYPE
   6
@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-231.5706766917293
+230.1332082551595
  22
-150.7330827067669
+151.2861163227017
  13
 0
  23
@@ -1143,9 +1143,9 @@ AcDbViewportTableRecord
  37
 0
  40
-305.9323308270676
+308.1444652908067
  41
-1.655474452554744
+1.625678119349006
  42
 50
  43
@@ -2255,28 +2255,6 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-Contour
- 70
-    0
- 62
-    7
-  6
-CONTINUOUS
-370
-   -3
-390
-F
-  0
-LAYER
-  5
-4B
-330
-2
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
 frame-title
  70
     0
@@ -2291,7 +2269,7 @@ F
   0
 LAYER
   5
-4C
+4B
 330
 2
 100
@@ -2313,7 +2291,7 @@ F
   0
 LAYER
   5
-4D
+4C
 330
 2
 100
@@ -2335,29 +2313,7 @@ F
   0
 LAYER
   5
-4E
-330
-2
-100
-AcDbSymbolTableRecord
-100
-AcDbLayerTableRecord
-  2
-labels
- 70
-    0
- 62
-    7
-  6
-CONTINUOUS
-370
-   25
-390
-F
-  0
-LAYER
-  5
-4F
+4D
 330
 2
 100
@@ -2393,7 +2349,7 @@ AcDbSymbolTable
   0
 STYLE
   5
-50
+4E
 330
 2
 100
@@ -2401,7 +2357,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-iso
+standard
  70
     0
  40
@@ -2415,13 +2371,13 @@ iso
  42
 1
   3
-iso
+standard
   4
 
   0
 STYLE
   5
-51
+4F
 330
 2
 100
@@ -2429,7 +2385,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-standard
+iso
  70
     0
  40
@@ -2443,7 +2399,7 @@ standard
  42
 1
   3
-standard
+iso
   4
 
   0
@@ -2505,7 +2461,7 @@ ACAD
   0
 APPID
   5
-52
+50
 330
 9
 100
@@ -2537,7 +2493,7 @@ AcDbDimStyleTable
   0
 DIMSTYLE
 105
-53
+51
 330
 A
 100
@@ -2721,7 +2677,7 @@ AcDbBlockTableRecord
   0
 BLOCK_RECORD
   5
-54
+52
 330
 1
 100
@@ -2739,7 +2695,7 @@ a3
   0
 BLOCK_RECORD
   5
-57
+55
 330
 1
 100
@@ -2757,7 +2713,7 @@ a3-0
   0
 BLOCK_RECORD
   5
-5A
+58
 330
 1
 100
@@ -2775,7 +2731,7 @@ eca-logo-0
   0
 BLOCK_RECORD
   5
-5D
+5B
 330
 1
 100
@@ -2784,60 +2740,6 @@ AcDbSymbolTableRecord
 AcDbBlockTableRecord
   2
 eca-logo-1
- 70
-    0
-280
-    1
-281
-    0
-  0
-BLOCK_RECORD
-  5
-60
-330
-1
-100
-AcDbSymbolTableRecord
-100
-AcDbBlockTableRecord
-  2
-Terminal-Earth
- 70
-    0
-280
-    1
-281
-    0
-  0
-BLOCK_RECORD
-  5
-63
-330
-1
-100
-AcDbSymbolTableRecord
-100
-AcDbBlockTableRecord
-  2
-Terminal-in
- 70
-    0
-280
-    1
-281
-    0
-  0
-BLOCK_RECORD
-  5
-66
-330
-1
-100
-AcDbSymbolTableRecord
-100
-AcDbBlockTableRecord
-  2
-Terminal-in-0
  70
     0
 280
@@ -2931,9 +2833,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-55
+53
 330
-54
+52
 100
 AcDbEntity
   8
@@ -2955,7 +2857,7 @@ a3
   0
 HATCH
   5
-69
+5E
 100
 AcDbEntity
   8
@@ -3041,7 +2943,7 @@ ansi31
   0
 HATCH
   5
-6A
+5F
 100
 AcDbEntity
   8
@@ -3127,7 +3029,7 @@ ansi31
   0
 HATCH
   5
-6B
+60
 100
 AcDbEntity
   8
@@ -3213,7 +3115,7 @@ ansi31
   0
 HATCH
   5
-6C
+61
 100
 AcDbEntity
   8
@@ -3299,7 +3201,7 @@ ansi31
   0
 HATCH
   5
-6D
+62
 100
 AcDbEntity
   8
@@ -3385,7 +3287,7 @@ ansi31
   0
 HATCH
   5
-6E
+63
 100
 AcDbEntity
   8
@@ -3471,7 +3373,7 @@ ansi31
   0
 HATCH
   5
-6F
+64
 100
 AcDbEntity
   8
@@ -3557,7 +3459,7 @@ ansi31
   0
 HATCH
   5
-70
+65
 100
 AcDbEntity
   8
@@ -3643,7 +3545,7 @@ ansi31
   0
 CIRCLE
   5
-71
+66
 100
 AcDbEntity
   8
@@ -3665,7 +3567,7 @@ AcDbCircle
   0
 LINE
   5
-72
+67
 100
 AcDbEntity
   8
@@ -3689,7 +3591,7 @@ AcDbLine
   0
 LINE
   5
-73
+68
 100
 AcDbEntity
   8
@@ -3713,7 +3615,7 @@ AcDbLine
   0
 LINE
   5
-74
+69
 100
 AcDbEntity
   8
@@ -3737,7 +3639,7 @@ AcDbLine
   0
 CIRCLE
   5
-75
+6A
 100
 AcDbEntity
   8
@@ -3759,7 +3661,7 @@ AcDbCircle
   0
 MTEXT
   5
-76
+6B
 100
 AcDbEntity
   8
@@ -3805,7 +3707,7 @@ iso
   0
 MTEXT
   5
-77
+6C
 100
 AcDbEntity
   8
@@ -3851,7 +3753,7 @@ iso
   0
 LINE
   5
-78
+6D
 100
 AcDbEntity
   8
@@ -3875,7 +3777,7 @@ AcDbLine
   0
 CIRCLE
   5
-79
+6E
 100
 AcDbEntity
   8
@@ -3897,7 +3799,7 @@ AcDbCircle
   0
 LINE
   5
-7A
+6F
 100
 AcDbEntity
   8
@@ -3921,7 +3823,7 @@ AcDbLine
   0
 LINE
   5
-7B
+70
 100
 AcDbEntity
   8
@@ -3945,7 +3847,7 @@ AcDbLine
   0
 LINE
   5
-7C
+71
 100
 AcDbEntity
   8
@@ -3969,7 +3871,7 @@ AcDbLine
   0
 CIRCLE
   5
-7D
+72
 100
 AcDbEntity
   8
@@ -3991,7 +3893,7 @@ AcDbCircle
   0
 MTEXT
   5
-7E
+73
 100
 AcDbEntity
   8
@@ -4037,7 +3939,7 @@ iso
   0
 MTEXT
   5
-7F
+74
 100
 AcDbEntity
   8
@@ -4083,7 +3985,7 @@ iso
   0
 LINE
   5
-80
+75
 100
 AcDbEntity
   8
@@ -4107,7 +4009,7 @@ AcDbLine
   0
 LINE
   5
-81
+76
 100
 AcDbEntity
   8
@@ -4131,7 +4033,7 @@ AcDbLine
   0
 LINE
   5
-82
+77
 100
 AcDbEntity
   8
@@ -4155,7 +4057,7 @@ AcDbLine
   0
 LINE
   5
-83
+78
 100
 AcDbEntity
   8
@@ -4179,7 +4081,7 @@ AcDbLine
   0
 LINE
   5
-84
+79
 100
 AcDbEntity
   8
@@ -4203,7 +4105,7 @@ AcDbLine
   0
 LINE
   5
-85
+7A
 100
 AcDbEntity
   8
@@ -4227,7 +4129,7 @@ AcDbLine
   0
 CIRCLE
   5
-86
+7B
 100
 AcDbEntity
   8
@@ -4249,7 +4151,7 @@ AcDbCircle
   0
 LINE
   5
-87
+7C
 100
 AcDbEntity
   8
@@ -4273,7 +4175,7 @@ AcDbLine
   0
 LINE
   5
-88
+7D
 100
 AcDbEntity
   8
@@ -4297,7 +4199,7 @@ AcDbLine
   0
 LINE
   5
-89
+7E
 100
 AcDbEntity
   8
@@ -4321,7 +4223,7 @@ AcDbLine
   0
 CIRCLE
   5
-8A
+7F
 100
 AcDbEntity
   8
@@ -4343,7 +4245,7 @@ AcDbCircle
   0
 MTEXT
   5
-8B
+80
 100
 AcDbEntity
   8
@@ -4389,7 +4291,7 @@ iso
   0
 MTEXT
   5
-8C
+81
 100
 AcDbEntity
   8
@@ -4435,7 +4337,7 @@ iso
   0
 CIRCLE
   5
-8D
+82
 100
 AcDbEntity
   8
@@ -4457,7 +4359,7 @@ AcDbCircle
   0
 MTEXT
   5
-8E
+83
 100
 AcDbEntity
   8
@@ -4503,7 +4405,7 @@ iso
   0
 LINE
   5
-8F
+84
 100
 AcDbEntity
   8
@@ -4527,7 +4429,7 @@ AcDbLine
   0
 LINE
   5
-90
+85
 100
 AcDbEntity
   8
@@ -4551,7 +4453,7 @@ AcDbLine
   0
 LINE
   5
-91
+86
 100
 AcDbEntity
   8
@@ -4575,7 +4477,7 @@ AcDbLine
   0
 CIRCLE
   5
-92
+87
 100
 AcDbEntity
   8
@@ -4597,7 +4499,7 @@ AcDbCircle
   0
 MTEXT
   5
-93
+88
 100
 AcDbEntity
   8
@@ -4643,7 +4545,7 @@ iso
   0
 LINE
   5
-94
+89
 100
 AcDbEntity
   8
@@ -4667,7 +4569,7 @@ AcDbLine
   0
 LINE
   5
-95
+8A
 100
 AcDbEntity
   8
@@ -4691,7 +4593,7 @@ AcDbLine
   0
 LINE
   5
-96
+8B
 100
 AcDbEntity
   8
@@ -4715,7 +4617,7 @@ AcDbLine
   0
 LINE
   5
-97
+8C
 100
 AcDbEntity
   8
@@ -4739,7 +4641,7 @@ AcDbLine
   0
 LINE
   5
-98
+8D
 100
 AcDbEntity
   8
@@ -4763,7 +4665,7 @@ AcDbLine
   0
 LINE
   5
-99
+8E
 100
 AcDbEntity
   8
@@ -4787,7 +4689,7 @@ AcDbLine
   0
 LINE
   5
-9A
+8F
 100
 AcDbEntity
   8
@@ -4811,7 +4713,7 @@ AcDbLine
   0
 CIRCLE
   5
-9B
+90
 100
 AcDbEntity
   8
@@ -4833,7 +4735,7 @@ AcDbCircle
   0
 LINE
   5
-9C
+91
 100
 AcDbEntity
   8
@@ -4857,7 +4759,7 @@ AcDbLine
   0
 LINE
   5
-9D
+92
 100
 AcDbEntity
   8
@@ -4881,7 +4783,7 @@ AcDbLine
   0
 LINE
   5
-9E
+93
 100
 AcDbEntity
   8
@@ -4905,7 +4807,7 @@ AcDbLine
   0
 CIRCLE
   5
-9F
+94
 100
 AcDbEntity
   8
@@ -4927,7 +4829,7 @@ AcDbCircle
   0
 MTEXT
   5
-A0
+95
 100
 AcDbEntity
   8
@@ -4973,7 +4875,7 @@ iso
   0
 MTEXT
   5
-A1
+96
 100
 AcDbEntity
   8
@@ -5019,7 +4921,7 @@ iso
   0
 CIRCLE
   5
-A2
+97
 100
 AcDbEntity
   8
@@ -5041,7 +4943,7 @@ AcDbCircle
   0
 MTEXT
   5
-A3
+98
 100
 AcDbEntity
   8
@@ -5087,7 +4989,7 @@ iso
   0
 LINE
   5
-A4
+99
 100
 AcDbEntity
   8
@@ -5111,7 +5013,7 @@ AcDbLine
   0
 LINE
   5
-A5
+9A
 100
 AcDbEntity
   8
@@ -5135,7 +5037,7 @@ AcDbLine
   0
 LINE
   5
-A6
+9B
 100
 AcDbEntity
   8
@@ -5159,7 +5061,7 @@ AcDbLine
   0
 CIRCLE
   5
-A7
+9C
 100
 AcDbEntity
   8
@@ -5181,7 +5083,7 @@ AcDbCircle
   0
 MTEXT
   5
-A8
+9D
 100
 AcDbEntity
   8
@@ -5227,9 +5129,9 @@ iso
   0
 ENDBLK
   5
-56
-330
 54
+330
+52
 100
 AcDbEntity
   8
@@ -5239,9 +5141,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-58
+56
 330
-57
+55
 100
 AcDbEntity
   8
@@ -5263,7 +5165,7 @@ a3-0
   0
 HATCH
   5
-A9
+9E
 100
 AcDbEntity
   8
@@ -5349,7 +5251,7 @@ ansi31
   0
 HATCH
   5
-AA
+9F
 100
 AcDbEntity
   8
@@ -5435,7 +5337,7 @@ ansi31
   0
 HATCH
   5
-AB
+A0
 100
 AcDbEntity
   8
@@ -5521,7 +5423,7 @@ ansi31
   0
 HATCH
   5
-AC
+A1
 100
 AcDbEntity
   8
@@ -5607,7 +5509,7 @@ ansi31
   0
 HATCH
   5
-AD
+A2
 100
 AcDbEntity
   8
@@ -5693,7 +5595,7 @@ ansi31
   0
 HATCH
   5
-AE
+A3
 100
 AcDbEntity
   8
@@ -5779,7 +5681,7 @@ ansi31
   0
 HATCH
   5
-AF
+A4
 100
 AcDbEntity
   8
@@ -5865,7 +5767,7 @@ ansi31
   0
 HATCH
   5
-B0
+A5
 100
 AcDbEntity
   8
@@ -5951,7 +5853,7 @@ ansi31
   0
 CIRCLE
   5
-B1
+A6
 100
 AcDbEntity
   8
@@ -5973,7 +5875,7 @@ AcDbCircle
   0
 LINE
   5
-B2
+A7
 100
 AcDbEntity
   8
@@ -5997,7 +5899,7 @@ AcDbLine
   0
 LINE
   5
-B3
+A8
 100
 AcDbEntity
   8
@@ -6021,7 +5923,7 @@ AcDbLine
   0
 LINE
   5
-B4
+A9
 100
 AcDbEntity
   8
@@ -6045,7 +5947,7 @@ AcDbLine
   0
 CIRCLE
   5
-B5
+AA
 100
 AcDbEntity
   8
@@ -6067,7 +5969,7 @@ AcDbCircle
   0
 MTEXT
   5
-B6
+AB
 100
 AcDbEntity
   8
@@ -6113,7 +6015,7 @@ iso
   0
 MTEXT
   5
-B7
+AC
 100
 AcDbEntity
   8
@@ -6159,7 +6061,7 @@ iso
   0
 LINE
   5
-B8
+AD
 100
 AcDbEntity
   8
@@ -6183,7 +6085,7 @@ AcDbLine
   0
 CIRCLE
   5
-B9
+AE
 100
 AcDbEntity
   8
@@ -6205,7 +6107,7 @@ AcDbCircle
   0
 LINE
   5
-BA
+AF
 100
 AcDbEntity
   8
@@ -6229,7 +6131,7 @@ AcDbLine
   0
 LINE
   5
-BB
+B0
 100
 AcDbEntity
   8
@@ -6253,7 +6155,7 @@ AcDbLine
   0
 LINE
   5
-BC
+B1
 100
 AcDbEntity
   8
@@ -6277,7 +6179,7 @@ AcDbLine
   0
 CIRCLE
   5
-BD
+B2
 100
 AcDbEntity
   8
@@ -6299,7 +6201,7 @@ AcDbCircle
   0
 MTEXT
   5
-BE
+B3
 100
 AcDbEntity
   8
@@ -6345,7 +6247,7 @@ iso
   0
 MTEXT
   5
-BF
+B4
 100
 AcDbEntity
   8
@@ -6391,7 +6293,7 @@ iso
   0
 LINE
   5
-C0
+B5
 100
 AcDbEntity
   8
@@ -6415,7 +6317,7 @@ AcDbLine
   0
 LINE
   5
-C1
+B6
 100
 AcDbEntity
   8
@@ -6439,7 +6341,7 @@ AcDbLine
   0
 LINE
   5
-C2
+B7
 100
 AcDbEntity
   8
@@ -6463,7 +6365,7 @@ AcDbLine
   0
 LINE
   5
-C3
+B8
 100
 AcDbEntity
   8
@@ -6487,7 +6389,7 @@ AcDbLine
   0
 LINE
   5
-C4
+B9
 100
 AcDbEntity
   8
@@ -6511,7 +6413,7 @@ AcDbLine
   0
 LINE
   5
-C5
+BA
 100
 AcDbEntity
   8
@@ -6535,7 +6437,7 @@ AcDbLine
   0
 CIRCLE
   5
-C6
+BB
 100
 AcDbEntity
   8
@@ -6557,7 +6459,7 @@ AcDbCircle
   0
 LINE
   5
-C7
+BC
 100
 AcDbEntity
   8
@@ -6581,7 +6483,7 @@ AcDbLine
   0
 LINE
   5
-C8
+BD
 100
 AcDbEntity
   8
@@ -6605,7 +6507,7 @@ AcDbLine
   0
 LINE
   5
-C9
+BE
 100
 AcDbEntity
   8
@@ -6629,7 +6531,7 @@ AcDbLine
   0
 CIRCLE
   5
-CA
+BF
 100
 AcDbEntity
   8
@@ -6651,7 +6553,7 @@ AcDbCircle
   0
 MTEXT
   5
-CB
+C0
 100
 AcDbEntity
   8
@@ -6697,7 +6599,7 @@ iso
   0
 MTEXT
   5
-CC
+C1
 100
 AcDbEntity
   8
@@ -6743,7 +6645,7 @@ iso
   0
 CIRCLE
   5
-CD
+C2
 100
 AcDbEntity
   8
@@ -6765,7 +6667,7 @@ AcDbCircle
   0
 MTEXT
   5
-CE
+C3
 100
 AcDbEntity
   8
@@ -6811,7 +6713,7 @@ iso
   0
 LINE
   5
-CF
+C4
 100
 AcDbEntity
   8
@@ -6835,7 +6737,7 @@ AcDbLine
   0
 LINE
   5
-D0
+C5
 100
 AcDbEntity
   8
@@ -6859,7 +6761,7 @@ AcDbLine
   0
 LINE
   5
-D1
+C6
 100
 AcDbEntity
   8
@@ -6883,7 +6785,7 @@ AcDbLine
   0
 CIRCLE
   5
-D2
+C7
 100
 AcDbEntity
   8
@@ -6905,7 +6807,7 @@ AcDbCircle
   0
 MTEXT
   5
-D3
+C8
 100
 AcDbEntity
   8
@@ -6951,7 +6853,7 @@ iso
   0
 LINE
   5
-D4
+C9
 100
 AcDbEntity
   8
@@ -6975,7 +6877,7 @@ AcDbLine
   0
 LINE
   5
-D5
+CA
 100
 AcDbEntity
   8
@@ -6999,7 +6901,7 @@ AcDbLine
   0
 LINE
   5
-D6
+CB
 100
 AcDbEntity
   8
@@ -7023,7 +6925,7 @@ AcDbLine
   0
 LINE
   5
-D7
+CC
 100
 AcDbEntity
   8
@@ -7047,7 +6949,7 @@ AcDbLine
   0
 LINE
   5
-D8
+CD
 100
 AcDbEntity
   8
@@ -7071,7 +6973,7 @@ AcDbLine
   0
 LINE
   5
-D9
+CE
 100
 AcDbEntity
   8
@@ -7095,7 +6997,7 @@ AcDbLine
   0
 LINE
   5
-DA
+CF
 100
 AcDbEntity
   8
@@ -7119,7 +7021,7 @@ AcDbLine
   0
 CIRCLE
   5
-DB
+D0
 100
 AcDbEntity
   8
@@ -7141,7 +7043,7 @@ AcDbCircle
   0
 LINE
   5
-DC
+D1
 100
 AcDbEntity
   8
@@ -7165,7 +7067,7 @@ AcDbLine
   0
 LINE
   5
-DD
+D2
 100
 AcDbEntity
   8
@@ -7189,7 +7091,7 @@ AcDbLine
   0
 LINE
   5
-DE
+D3
 100
 AcDbEntity
   8
@@ -7213,7 +7115,7 @@ AcDbLine
   0
 CIRCLE
   5
-DF
+D4
 100
 AcDbEntity
   8
@@ -7235,7 +7137,7 @@ AcDbCircle
   0
 MTEXT
   5
-E0
+D5
 100
 AcDbEntity
   8
@@ -7281,7 +7183,7 @@ iso
   0
 MTEXT
   5
-E1
+D6
 100
 AcDbEntity
   8
@@ -7327,7 +7229,7 @@ iso
   0
 CIRCLE
   5
-E2
+D7
 100
 AcDbEntity
   8
@@ -7349,7 +7251,7 @@ AcDbCircle
   0
 MTEXT
   5
-E3
+D8
 100
 AcDbEntity
   8
@@ -7395,7 +7297,7 @@ iso
   0
 LINE
   5
-E4
+D9
 100
 AcDbEntity
   8
@@ -7419,7 +7321,7 @@ AcDbLine
   0
 LINE
   5
-E5
+DA
 100
 AcDbEntity
   8
@@ -7443,7 +7345,7 @@ AcDbLine
   0
 LINE
   5
-E6
+DB
 100
 AcDbEntity
   8
@@ -7467,7 +7369,7 @@ AcDbLine
   0
 CIRCLE
   5
-E7
+DC
 100
 AcDbEntity
   8
@@ -7489,7 +7391,7 @@ AcDbCircle
   0
 MTEXT
   5
-E8
+DD
 100
 AcDbEntity
   8
@@ -7535,9 +7437,9 @@ iso
   0
 ENDBLK
   5
-59
-330
 57
+330
+55
 100
 AcDbEntity
   8
@@ -7547,9 +7449,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-5B
+59
 330
-5A
+58
 100
 AcDbEntity
   8
@@ -7571,7 +7473,7 @@ eca-logo-0
   0
 ARC
   5
-E9
+DE
 100
 AcDbEntity
   8
@@ -7599,7 +7501,7 @@ AcDbArc
   0
 LINE
   5
-EA
+DF
 100
 AcDbEntity
   8
@@ -7623,7 +7525,7 @@ AcDbLine
   0
 ARC
   5
-EB
+E0
 100
 AcDbEntity
   8
@@ -7651,7 +7553,7 @@ AcDbArc
   0
 LINE
   5
-EC
+E1
 100
 AcDbEntity
   8
@@ -7675,7 +7577,7 @@ AcDbLine
   0
 MTEXT
   5
-ED
+E2
 100
 AcDbEntity
   8
@@ -7721,7 +7623,7 @@ standard
   0
 LINE
   5
-EE
+E3
 100
 AcDbEntity
   8
@@ -7745,7 +7647,7 @@ AcDbLine
   0
 LINE
   5
-EF
+E4
 100
 AcDbEntity
   8
@@ -7769,7 +7671,7 @@ AcDbLine
   0
 LINE
   5
-F0
+E5
 100
 AcDbEntity
   8
@@ -7793,9 +7695,9 @@ AcDbLine
   0
 ENDBLK
   5
-5C
-330
 5A
+330
+58
 100
 AcDbEntity
   8
@@ -7805,9 +7707,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-5E
+5C
 330
-5D
+5B
 100
 AcDbEntity
   8
@@ -7829,7 +7731,7 @@ eca-logo-1
   0
 ARC
   5
-F1
+E6
 100
 AcDbEntity
   8
@@ -7857,7 +7759,7 @@ AcDbArc
   0
 LINE
   5
-F2
+E7
 100
 AcDbEntity
   8
@@ -7881,7 +7783,7 @@ AcDbLine
   0
 ARC
   5
-F3
+E8
 100
 AcDbEntity
   8
@@ -7909,7 +7811,7 @@ AcDbArc
   0
 LINE
   5
-F4
+E9
 100
 AcDbEntity
   8
@@ -7933,7 +7835,7 @@ AcDbLine
   0
 MTEXT
   5
-F5
+EA
 100
 AcDbEntity
   8
@@ -7979,7 +7881,7 @@ standard
   0
 LINE
   5
-F6
+EB
 100
 AcDbEntity
   8
@@ -8003,7 +7905,7 @@ AcDbLine
   0
 LINE
   5
-F7
+EC
 100
 AcDbEntity
   8
@@ -8027,7 +7929,7 @@ AcDbLine
   0
 LINE
   5
-F8
+ED
 100
 AcDbEntity
   8
@@ -8051,449 +7953,9 @@ AcDbLine
   0
 ENDBLK
   5
-5F
-330
 5D
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockEnd
-  0
-BLOCK
-  5
-61
 330
-60
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockBegin
-  2
-Terminal-Earth
- 70
-    0
- 10
-0
- 20
-0
-  3
-Terminal-Earth
-  1
-
-  0
-LINE
-  5
-F9
-100
-AcDbEntity
-  8
-Contour
-  6
-ByLayer
- 62
-  256
-370
-   25
-100
-AcDbLine
- 10
-0
- 20
-0
- 11
-0
- 21
--10
-  0
-LINE
-  5
-FA
-100
-AcDbEntity
-  8
-Contour
-  6
-ByLayer
- 62
-  256
-370
-   25
-100
-AcDbLine
- 10
-0
- 20
--10
- 11
--5
- 21
--10
-  0
-LINE
-  5
-FB
-100
-AcDbEntity
-  8
-Contour
-  6
-ByLayer
- 62
-  256
-370
-   25
-100
-AcDbLine
- 10
-0
- 20
--10
- 11
-5
- 21
--10
-  0
-LINE
-  5
-FC
-100
-AcDbEntity
-  8
-Contour
-  6
-ByLayer
- 62
-  256
-370
-   25
-100
-AcDbLine
- 10
-0
- 20
--11.25
- 11
--3.75
- 21
--11.25
-  0
-LINE
-  5
-FD
-100
-AcDbEntity
-  8
-Contour
-  6
-ByLayer
- 62
-  256
-370
-   25
-100
-AcDbLine
- 10
-0
- 20
--11.25
- 11
-3.75
- 21
--11.25
-  0
-LINE
-  5
-FE
-100
-AcDbEntity
-  8
-Contour
-  6
-ByLayer
- 62
-  256
-370
-   25
-100
-AcDbLine
- 10
-0
- 20
--12.5
- 11
--2.5
- 21
--12.5
-  0
-LINE
-  5
-FF
-100
-AcDbEntity
-  8
-Contour
-  6
-ByLayer
- 62
-  256
-370
-   25
-100
-AcDbLine
- 10
-0
- 20
--12.5
- 11
-2.5
- 21
--12.5
-  0
-LINE
-  5
-100
-100
-AcDbEntity
-  8
-Contour
-  6
-ByLayer
- 62
-  256
-370
-   25
-100
-AcDbLine
- 10
-0
- 20
--13.75
- 11
--1.25
- 21
--13.75
-  0
-LINE
-  5
-101
-100
-AcDbEntity
-  8
-Contour
-  6
-ByLayer
- 62
-  256
-370
-   25
-100
-AcDbLine
- 10
-0
- 20
--13.75
- 11
-1.25
- 21
--13.75
-  0
-LINE
-  5
-102
-100
-AcDbEntity
-  8
-Contour
-  6
-ByLayer
- 62
-  256
-370
-   25
-100
-AcDbLine
- 10
-0
- 20
--15
- 11
-0
- 21
--14.375
-  0
-ENDBLK
-  5
-62
-330
-60
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockEnd
-  0
-BLOCK
-  5
-64
-330
-63
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockBegin
-  2
-Terminal-in
- 70
-    0
- 10
-0
- 20
-0
-  3
-Terminal-in
-  1
-
-  0
-CIRCLE
-  5
-103
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-0.00863291037492786
- 20
-10.74201307537149
- 40
-3.343779540414038
-  0
-LINE
-  5
-104
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-0.00863291037492786
- 20
-0.0666705345713865
- 11
-0.00863291037492786
- 21
-7.398233534957427
-  0
-ENDBLK
-  5
-65
-330
-63
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockEnd
-  0
-BLOCK
-  5
-67
-330
-66
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockBegin
-  2
-Terminal-in-0
- 70
-    0
- 10
-0
- 20
-0
-  3
-Terminal-in-0
-  1
-
-  0
-CIRCLE
-  5
-105
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-0.00863291037492786
- 20
-10.74201307537149
- 40
-3.343779540414038
-  0
-LINE
-  5
-106
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-0.00863291037492786
- 20
-0.0666705345713865
- 11
-0.00863291037492786
- 21
-7.398233534957427
-  0
-ENDBLK
-  5
-68
-330
-66
+5B
 100
 AcDbEntity
   8
@@ -8509,7 +7971,7 @@ ENTITIES
   0
 INSERT
   5
-107
+EE
 100
 AcDbEntity
   8
@@ -8549,7 +8011,7 @@ a3-0
   0
 LINE
   5
-108
+EF
 100
 AcDbEntity
   8
@@ -8573,7 +8035,7 @@ AcDbLine
   0
 LINE
   5
-109
+F0
 100
 AcDbEntity
   8
@@ -8597,7 +8059,7 @@ AcDbLine
   0
 LINE
   5
-10A
+F1
 100
 AcDbEntity
   8
@@ -8621,7 +8083,7 @@ AcDbLine
   0
 LINE
   5
-10B
+F2
 100
 AcDbEntity
   8
@@ -8645,7 +8107,7 @@ AcDbLine
   0
 LINE
   5
-10C
+F3
 100
 AcDbEntity
   8
@@ -8669,7 +8131,7 @@ AcDbLine
   0
 LINE
   5
-10D
+F4
 100
 AcDbEntity
   8
@@ -8693,7 +8155,7 @@ AcDbLine
   0
 INSERT
   5
-10E
+F5
 100
 AcDbEntity
   8
@@ -8733,7 +8195,7 @@ eca-logo-1
   0
 LINE
   5
-10F
+F6
 100
 AcDbEntity
   8
@@ -8757,7 +8219,7 @@ AcDbLine
   0
 LINE
   5
-110
+F7
 100
 AcDbEntity
   8
@@ -8781,7 +8243,7 @@ AcDbLine
   0
 LINE
   5
-111
+F8
 100
 AcDbEntity
   8
@@ -8805,7 +8267,7 @@ AcDbLine
   0
 LINE
   5
-112
+F9
 100
 AcDbEntity
   8
@@ -8829,7 +8291,7 @@ AcDbLine
   0
 MTEXT
   5
-113
+FA
 100
 AcDbEntity
   8
@@ -8873,365 +8335,13 @@ standard
  44
 1
   0
-INSERT
-  5
-114
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-Terminal-in-0
- 10
-60
- 20
-250
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-180
- 70
-    1
- 71
-    1
- 44
-0
- 45
-0
-  0
-INSERT
-  5
-115
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-Terminal-in-0
- 10
-160
- 20
-250
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-180
- 70
-    1
- 71
-    1
- 44
-0
- 45
-0
-  0
-INSERT
-  5
-116
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-Terminal-Earth
- 10
-60
- 20
-190
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-0
- 45
-0
-  0
-LINE
-  5
-117
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-160
- 20
-236
- 11
-160
- 21
-230
-  0
-LINE
-  5
-118
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-160
- 20
-230
- 11
-60
- 21
-230
-  0
-LINE
-  5
-119
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-60
- 20
-230
- 11
-60
- 21
-236
-  0
-LINE
-  5
-11A
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-60
- 20
-190
- 11
-60
- 21
-224
-  0
-LINE
-  5
-11B
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-60
- 20
-224
- 11
-63
- 21
-224
-  0
-LINE
-  5
-11C
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-63
- 20
-224
- 11
-60
- 21
-228
-  0
-LINE
-  5
-11D
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-60
- 20
-228
- 11
-57
- 21
-224
-  0
-LINE
-  5
-11E
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-57
- 20
-224
- 11
-60
- 21
-224
-  0
-INSERT
-  5
-11F
-100
-AcDbEntity
-  8
-labels
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-Terminal-Earth
- 10
-53
- 20
-243
- 30
-0
- 41
-0.5
- 42
-0.5
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-0.5
- 45
-0.5
-  0
 MTEXT
   5
-120
+FB
 100
 AcDbEntity
   8
-labels
+schematic
   6
 ByLayer
  62
@@ -9241,263 +8351,21 @@ ByLayer
 100
 AcDbMText
  10
-151
+30
  20
-241
+280
  30
 0
  40
-4
+10
  41
-5.777777777777778
- 71
-    2
- 72
-    1
-  1
-TN
-  7
-standard
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-LINE
-  5
-121
-100
-AcDbEntity
-  8
-labels
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-170
- 20
-230
- 11
-170
- 21
-233
-  0
-LINE
-  5
-122
-100
-AcDbEntity
-  8
-labels
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-170
- 20
-233
- 11
-166
- 21
-230
-  0
-LINE
-  5
-123
-100
-AcDbEntity
-  8
-labels
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-166
- 20
-230
- 11
-170
- 21
-227
-  0
-LINE
-  5
-124
-100
-AcDbEntity
-  8
-labels
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-170
- 20
-227
- 11
-170
- 21
-230
-  0
-MTEXT
-  5
-125
-100
-AcDbEntity
-  8
-labels
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-80
- 20
-210
- 30
-0
- 40
-3
- 41
-30.91666539465395
- 71
-    2
- 72
-    1
-  1
-COLLEGAMENTO\PAL DISPERSORE
-  7
-standard
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-LINE
-  5
-126
-100
-AcDbEntity
-  8
-labels
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-170
- 20
-230
- 11
-190
- 21
-230
-  0
-LINE
-  5
-127
-100
-AcDbEntity
-  8
-labels
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-190
- 20
-230
- 11
-190
- 21
-214
-  0
-MTEXT
-  5
-128
-100
-AcDbEntity
-  8
-labels
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-100
- 20
-170
- 30
-0
- 40
-3
- 41
-199.9999974559747
+56.66666666666729
  71
     1
  72
     1
-  3
-\PPROVE DI ISOLAMENTO:\P\P\PPORTARE LA CABINA FUORI PIANO CON PORTE CHIUSE\PTOGLIERE TENSIONE AL QUADRO ED ATTENDERE UN MINUTO\PSTACCARE I CONNETTORI DELLA SCHEDA SIGLATI : A - B - C\P___ VEDI LAYOUT DELLA SCHEDA ___\P\P\PNEL QUADRO SONO PRESENTI 1 M
-  3
-ORSETTO GIALLO/VERDE DI TERRA NON ISOLATO DALL'AR-\PMADIO E 1 MORSETTO "TN" ISOLATO DALL'ARMADIO.\PSUL MORSETTO GIALLO/VERDE SONO COLLEGATI NELLA PARTE SUPERIORE IL FILO DI TERRA DEL\PREGOLATORE MOTORE SE PRESENTE E NELLA PARTE INFERIORE IL FILO PROV
-  3
-ENIENTE DAL DIS-\PPERSORE DI TERRA DELL'IMPIANTO ED UN PONTE TRA QUESTO MORSETTO ED IL "TN".\PSTACCARE QUESTO PONTE DAL LATO DI "TN"E COLLEGARE LO STRUMENTO TRA QUESTO FILO\PED I VARI CIRCUITI DA TESTARE (COME SPECIFICATO NEL FOGLIO "PROVE DI ISOLAME
   1
-NTO").\PNELLA PARTE SUPERIORE DI "TN" SONO COLLEGATI TUTTI I FILI DI TERRA DEL QUADRO.\P
+LEGENDA
   7
 standard
 210
@@ -9515,11 +8383,11 @@ standard
   0
 MTEXT
   5
-129
+FC
 100
 AcDbEntity
   8
-labels
+schematic
   6
 ByLayer
  62
@@ -9529,21 +8397,21 @@ ByLayer
 100
 AcDbMText
  10
-85.6163265306123
+30
  20
-236.0032653061226
+260
  30
 0
  40
-4
+5
  41
-42.99999915199141
+31.11111005110036
  71
     1
  72
     1
   1
-PONTE ESTERNO
+MORSETTI
   7
 standard
 210
@@ -9561,11 +8429,11 @@ standard
   0
 MTEXT
   5
-12A
+FD
 100
 AcDbEntity
   8
-labels
+schematic
   6
 ByLayer
  62
@@ -9575,21 +8443,21 @@ ByLayer
 100
 AcDbMText
  10
-190
+90
  20
-210
+260
  30
 0
  40
-3
+5
  41
-62.33333269732707
+39.99999893998956
  71
-    2
+    1
  72
     1
   1
-UTILIZZARE QUESTO FILO\PPER LE PROVE DI ISOLAMENTO\PDOPO AVERLO STACCATO DAL\PMORSETTO "TN"
+DESCRIZIONE
   7
 standard
 210
@@ -9607,7 +8475,7 @@ standard
   0
 MTEXT
   5
-12B
+FE
 100
 AcDbEntity
   8
@@ -9621,7 +8489,7 @@ ByLayer
 100
 AcDbMText
  10
-303
+304
  20
 35
  30
@@ -9635,7 +8503,71 @@ AcDbMText
  72
     1
   1
-Schema: MC-POL48MIAE-06\PFoglio: 14 di 17
+Schema: MC-POL48MIAE-06\PFoglio: 15 di 17
+  7
+standard
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+FF
+100
+AcDbEntity
+  8
+schematic
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+30
+ 20
+250
+ 30
+0
+ 40
+3
+ 41
+176.3333323639935
+ 71
+    1
+ 72
+    1
+  3
+1 - 2                        EXTRA CORSA\P2  -4                        ALT E BOTTONIERA MANUTENZIONE\P4 - 5                        INTER FOSSA\P5 - 6                        ALT CABINA\P6 - 7                        PARACADUTE\P7 - 8                   
+  3
+     PRELIMINARI\P8 - 9                        PORTE CABINA(SIA IN BATTENTE CHE IN AUTOMATICO)\P9 - 10                       BLOCCHI\PCPF - PFD                    PRE-FINE CORSA DISCESA\PCPF - PFS                    PRE-FINE CORSA SALITA\PCPF - 82   
+  3
+                  PONTICELLO PER ESCLUDERE PRE-FINE CORSA\PMA - MB - GND                DEVIATORE MANUTENZIONE\PUP - DW                      PULSANTI ISPEZIONE\PCB                           COMUNE CHIAMATE\P0 - 1...                     CHIAMATE CABIN
+  3
+A (SU PERIFERICA)\P0 - 1...(SALITA)             CHIAMATE DI PIANO SALITA (SU PERIFERICA)\P0 - 1...(DISCESA)            CHIAMATE DI PIANO DISCESA (SU PERIFERICA)\PGND - FCD                    BISTABILE FINE CORSA DISCESA\PGND - FCS                    
+  3
+BISTABILE FINE CORSA SALITA\PGND - ID                     INDUTTORE CONTEGGIO DISCESA\PGND - IS                     INDUTTORE CONTEGGIO SALITA\PGND - IP1, GND - IP2         INDUTTORI CABINA AL PIANO E ZONA SICUREZZA\PGND - IAX                    INDU
+  3
+TTORE FERMATA CON PIANI CORTI ESTREMI\PGND - PA                     PULSANTE APERTURA PORTE\PGND - SVR                    CONTATTO SOVRACCARICO\PGND - CM1                    COSTOLA MOBILE - FOTOCELLULA LATO 1\PGND - CM2                    COSTOLA MO
+  3
+BILE - FOTOCELLULA LATO 2\PGND - CCP                    CONTATTO CABINA COMPLETA\PGND - PRR                    PULSANTE PARTENZA RAPIDA IN CABINA\P\PCFC - FA1                    CONTATTO FINECORSA APERTURA PORTE LATO 1\PCFC - FC1                    C
+  3
+ONTATTO FINECORSA CHIUSURA PORTE LATO 1\PCFC - FA2                    CONTATTO FINECORSA APERTURA PORTE LATO 2\PCFC - FC2                    CONTATTO FINECORSA CHIUSURA PORTE LATO 2\P\PCL                           COMUNE LUMINOSE\PCL - 0, CL - 1...  
+  3
+          SEGNALAZIONE POSIZIONE (SU PERIFERICA)\PCL - FS                      SEGNALAZIONE FRECCIA SALITA\PCL - FD                      SEGNALAZIONE FRECCIA DISCESA\PCL - FSX                     SEGNALAZIONE PROSSIMA PARTENZA SALITA\PCL  -FDX       
+  1
+              SEGNALAZIONE PROSSIMA PARTENZA DISCESA\PCL - SV                      SEGNALAZIONE SOVRACCARICO\PCL - GON                     SEGANALZIONE GONG IN CABINA\PPE                           RITORNO PRESENTE\P
   7
 standard
 210

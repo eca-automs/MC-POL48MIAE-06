@@ -1,0 +1,15 @@
+{
+  "name": "mc-pol48miae-06",
+  "version": "0.2.1",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "changelog": "conventional-changelog -i CHANGELOG.md -s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:eca-automs/schematics/MC-POL48MIAE-06.git"
+  },
+  "author": "Roberto Belardi <robqo.dev@gmail.com>",
+  "license": "GPL-3.0"
+}

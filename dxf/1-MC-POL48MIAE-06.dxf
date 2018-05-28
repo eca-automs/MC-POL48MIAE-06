@@ -23,17 +23,17 @@ $INSBASE
   9
 $EXTMIN
  10
-10000000000
+20.3926056338
  20
-10000000000
+12.5492957746
  30
 0
   9
 $EXTMAX
  10
--10000000000
+408.897887324
  20
--10000000000
+286.019366197
  30
 0
   9
@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-223.0491281363843
+232.6922847736161
  22
-144.8179265767848
+144.502232477635
  13
 0
  23
@@ -1143,9 +1143,9 @@ AcDbViewportTableRecord
  37
 0
  40
-283.7316115264301
+279.9427348110959
  41
-2.064739884393064
+1.790751445086705
  42
 50
  43
@@ -2357,7 +2357,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-iso
+standard
  70
     0
  40
@@ -2371,7 +2371,7 @@ iso
  42
 1
   3
-iso
+standard
   4
 
   0
@@ -2385,7 +2385,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-standard
+iso
  70
     0
  40
@@ -2399,7 +2399,7 @@ standard
  42
 1
   3
-standard
+iso
   4
 
   0
@@ -8205,52 +8205,6 @@ F6
 100
 AcDbEntity
   8
-text
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-210
- 20
-200
- 30
-0
- 40
-10
- 41
-179.7222201022014
- 71
-    2
- 72
-    1
-  1
-SCHEMA MC-POL48MIAE-06\P\PVERSIONE 0.1.2
-  7
-standard
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-F7
-100
-AcDbEntity
-  8
 frame-title
   6
 ByLayer
@@ -8276,6 +8230,52 @@ AcDbMText
     1
   1
 Schema: MC-POL48MIAE-06\PFoglio: 1 di 18
+  7
+standard
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+F7
+100
+AcDbEntity
+  8
+text
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+210
+ 20
+200
+ 30
+0
+ 40
+10
+ 41
+179.7222201022014
+ 71
+    2
+ 72
+    1
+  1
+SCHEMA MC-POL48MIAE-06\P\PVERSIONE 0.1.3
   7
 standard
 210

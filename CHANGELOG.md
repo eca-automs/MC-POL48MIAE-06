@@ -1,3 +1,12 @@
+<a name="0.1.3"></a>
+## <small>0.1.3 (2018-05-28)</small>
+
+* Add package scripts, remove unused files ([73b3284](https://github.com/eca-automs/MC-POL48MIAE-06/commit/73b3284))
+* aggiunto foglio ([4c7e3d1](https://github.com/eca-automs/MC-POL48MIAE-06/commit/4c7e3d1))
+* Bump version 0.1.3 ([2f68a04](https://github.com/eca-automs/MC-POL48MIAE-06/commit/2f68a04))
+
+
+
 <a name="0.1.2"></a>
 ## 0.1.2 (2017-07-11)
 

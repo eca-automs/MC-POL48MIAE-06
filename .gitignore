@@ -1,3 +1,5 @@
 #librecad backups
 *.dxf~
 \#*.dxf
+
+node_modules

@@ -23,17 +23,17 @@ $INSBASE
   9
 $EXTMIN
  10
--0.5
+10000000000
  20
-0.25
+10000000000
  30
 0
   9
 $EXTMAX
  10
-419.5
+-10000000000
  20
-297.25
+-10000000000
  30
 0
   9
@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-230.1332082551595
+230.3068171219729
  22
-151.2861163227017
+151.4004598249628
  13
 0
  23
@@ -1145,7 +1145,7 @@ AcDbViewportTableRecord
  40
 308.1444652908067
  41
-1.625678119349006
+2.064739884393064
  42
 50
  43
@@ -2357,7 +2357,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-standard
+iso
  70
     0
  40
@@ -2371,7 +2371,7 @@ standard
  42
 1
   3
-standard
+iso
   4
 
   0
@@ -2385,7 +2385,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-iso
+standard
  70
     0
  40
@@ -2399,7 +2399,7 @@ iso
  42
 1
   3
-iso
+standard
   4
 
   0
@@ -8351,21 +8351,21 @@ ByLayer
 100
 AcDbMText
  10
-90
+30
  20
-260
+280
  30
 0
  40
-5
+10
  41
-39.99999893998956
+56.66666666666729
  71
     1
  72
     1
   1
-DESCRIZIONE
+LEGENDA
   7
 standard
 210
@@ -8399,19 +8399,19 @@ AcDbMText
  10
 30
  20
-280
+260
  30
 0
  40
-10
+5
  41
-135.2777777777778
+31.11111005110036
  71
     1
  72
     1
   1
-ELENCO COMPONENTI
+MORSETTI
   7
 standard
 210
@@ -8443,7 +8443,7 @@ ByLayer
 100
 AcDbMText
  10
-30
+90
  20
 260
  30
@@ -8451,13 +8451,13 @@ AcDbMText
  40
 5
  41
-16.11111111111111
+39.99999893998956
  71
     1
  72
     1
   1
-NOME
+DESCRIZIONE
   7
 standard
 210
@@ -8476,6 +8476,72 @@ standard
 MTEXT
   5
 FE
+100
+AcDbEntity
+  8
+schematic
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+30
+ 20
+250
+ 30
+0
+ 40
+3
+ 41
+206.4999996666667
+ 71
+    1
+ 72
+    1
+  3
+M1 - M1 - M1                 MOTORE PORTE LATO 1 - TRIFASE\PM2 - M2 - M2                 MOTORE PORTE LATO 2 - TRIFASE\PCOM - AP1                    COMANDO APERTURA PORTE LATO 1 OPERATORE ELETTRONICO\PCOM - CP1                    COMANDO CHIUSURA PO
+  3
+RTE LATO 1 OPERATORE ELETTRONICO\PCOM - AP2                    COMANDO APERTURA PORTE LATO 2 OPERATORE ELETTRONICO\PCOM - CP2                    COMANDO CHIUSURA PORTE LATO 2 OPERATORE ELETTRONICO\PBRO - BR1                    BOBINA RALLENTAMENTO OP
+  3
+ERATORE TRIFASE LATO 1\PBRO - BR2                    BOBINA RALLENTAMENTO OPERATORE TRIFASE LATO 2\PBR1 - RA1                    CONTATTO RALLENTAMENTO APERTURA LATO 1\PBR1 - RC1                    CONTATTO RALLENTAMENTO CHIUSURA LATO 1\PBR2 - RA2   
+  3
+                 CONTATTO RALLENTAMENTO APERTURA LATO 2\PBR2 - RC2                    CONTATTO RALLENTAMENTO CHIUSURA LATO 2\P\PAL1 - AL2                    PULSANTE ALLARME (SENZA LEGGE 13)\PAL2 - AL3                    SUONERIA ALLARME(SENZA LEGGE 
+  3
+13)\PICP - ICP                    INDUTTORE CABINA SPIA AL PIANO (SENZA LEGGE 13)\PAL- - AL1                    PULSANTE ALLARME\PAL- - ALR                    SPIA ALLARME RICEVUTO\PAL- - ALP                    LUMINOSA ALLARME AI PIANI\PAL- - PAR   
+  3
+                 PULSANTE ALLARME RICEVUTO\PAL- - PRS                    PULSANTE RESET ALLARME\PAL- - AL+                    ALIMENTAZIONE CITOFONO IN ALLARME\PAL+ - AL2                    SUONERIA ALLARME\PAL+ - LEM                    LUCE EMERGENZ
+  3
+A 12VDC\PCTF - CTF                    CONSENSO COMBINATORE TELEFONICO\PIG - IG                      4%%D POLO INTERRUTTORE GENERALE\P\PPR+ - PR-                    PATTINO RETRATTILE\PCEV - EVL                    ELETTROVALVOLA LIVELLAZIONE\PCEV - EV
+  3
+D                    ELETTROVALVOLA DISCESA\PCEV - EVS                    ELETTROVALVOLA SALITA\PCEV - ELD                    ELETTROVALVOLA LIVELLAZIONE DISCESA\PCEV - ELS                    ELETTROVALVOLA LIVELLAZIONE SALITA\PPTC - PTC             
+  3
+       TERMISTORI MOTORE\PLF - LF                      ALIMENTAZIONE OPERATORE PORTE ELETTRONICO (220VAC O 24VAC)\PR - S - T                    LINEA TRIFASE\PU - V - W                    MOTORE POMPA\PX - Y - Z                    MOTORE POMPA\PL1 - 
+  3
+L2                      LINEA LUCE CABINA 230VAC\PL1 - L3                      LUCE CABINA A TEMPO\P+24                          24V GRUPPO BATTERIE\P+48                          48V GRUPPO BATTERIE\P-                            NEGATIVO GRUPPO BATTE
+  1
+RIE\PLE - LE                      SPIA IN EMERGENZA 24V\P
+  7
+standard
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+FF
 100
 AcDbEntity
   8
@@ -8503,71 +8569,7 @@ AcDbMText
  72
     1
   1
-Schema: MC-POL48MIAE-06\PFoglio: 17 di 17
-  7
-standard
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-FF
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-30
- 20
-250
- 30
-0
- 40
-3
- 41
-199.0833314253142
- 71
-    1
- 72
-    1
-  3
-ALB                          CARICA BATTERIA BC 12V\PCFS                          RELÈ DI FASE\PAMC1                         ALIMENTATORE MCP2015X, RSS 24V\PAMC2                         ALIMENTATORE MCP2015X, RSS 24V\PAB1                          CA
-  3
-RICABATTERIE BATTERIE EMERGENZA 24V\PAB2                          CARICABATTERIE BATTERIE EMERGENZA 24V\PBC                           BATTERIA ALLARME 12V 7AH\PF1                           FUSIBILE 4A TR1\PF2                           FUSIBILE 4A TR2
-  3
-\PF3                           FUSIBILE 4A CIRCUITO MANOVRA\PF4                           FUSIBILE 4A CIRCUITO LUMINOSE\PF5 - F6                      FUSIBILE MOTORE PORTE TRIFASE\PF7                           FUSIBILE 4A OPERATORE PORTE ELETTRONICO\
-  3
-PF8                           FUSIBILE PATTINO RETRATTILE\PF9                           FUSIBILE 4A PROTEZIONE CIRCUITO VALVOLE\PF10                          FUSIBILE 4A PROTEZIONE +24VDC GRUPPO BATTERIE\PF11                          FUSIBILE 4A PROT
-  3
-EZIONE +48VDC GRUPPO BATTERIE\P\PVA                           VALVOLA MAGNETOTERMICA PROTEZIONE CIRCUITO MANOVRA\PTR1                          TRASFORMATORE MONOFASE / TRIFASE ALIMENTAZIONE QUADRO\PTR2                          TRASFORMATORE MONOFASE 
-  3
-ALIMENTAZIONE QUADRO\P\PMCP2015X-SMD                 SCHEDA MADRE MICROPROCESSORE\PPER16B-SMD                   SCHEDA ESPANSIONE CHIAMATE-LUMINOSE\PL1307                        SCHEDA LEGGE 13\PMIAE                         SCHEDA EMERGENZA SMS\PSMS-
-  3
-START                    SOFT-STARTER SMS\P\PY                            TELERUTTORE STELLA\PP                            TELERUTTORE PROTEZIONE\PDIS                          TELERUTTORE DISCESA\PSAL                          TELERUTTORE SALITA\PPV  
-  3
-                         RELÈ BASSA VELOCITÀ\PPX                           AUSILIARIO TELERUTTORE PROTEZIONE\PSX                           AUSILIARIO TELERUTTORE SALITA\PYX                           AUSILIARIO TELERUTTORE STELLA\PRP                
-  3
-           RELÈ PATTINO\PAP1 - AP2                    RELÈ APERTURA\PCP1 - CP2                    RELÈ CHIUSURA\PRSS                          RELÈ SICUREZZA\PRD1                          RADDRIZZATORE MANOVRA\PRD2                          RADDRIZ
-  1
-ZATORE LUMINOSE\PRD3                          RADDRIZZATORE VALVOLE > 48V\PRD4                          RADDRIZZATORE PATTINO\P
+Schema: MC-POL48MIAE-06\PFoglio: 17 di 18
   7
 standard
 210

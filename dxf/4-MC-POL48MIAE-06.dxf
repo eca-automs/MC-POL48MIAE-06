@@ -23,17 +23,17 @@ $INSBASE
   9
 $EXTMIN
  10
--0.5
+10000000000
  20
-0.25
+10000000000
  30
 0
   9
 $EXTMAX
  10
-419.5
+-10000000000
  20
-297.25
+-10000000000
  30
 0
   9
@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-230.1332082551595
+230.3068171219729
  22
-151.2861163227017
+151.4004598249628
  13
 0
  23
@@ -1145,7 +1145,7 @@ AcDbViewportTableRecord
  40
 308.1444652908067
  41
-1.625678119349006
+2.064739884393064
  42
 50
  43
@@ -2401,7 +2401,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-standard
+iso
  70
     0
  40
@@ -2415,7 +2415,7 @@ standard
  42
 1
   3
-standard
+iso
   4
 
   0
@@ -2429,7 +2429,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-iso
+standard
  70
     0
  40
@@ -2443,7 +2443,7 @@ iso
  42
 1
   3
-iso
+standard
   4
 
   0
@@ -20789,7 +20789,7 @@ AcDbMText
  72
     1
   1
-Schema: MC-POL48MIAE-06\PFoglio: 4 di 17
+Schema: MC-POL48MIAE-06\PFoglio: 4 di 18
   7
 standard
 210

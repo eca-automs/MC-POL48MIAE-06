@@ -1,3 +1,10 @@
+<a name="0.1.4"></a>
+## <small>0.1.4 (2018-05-29)</small>
+
+* Sostituisce contatto 3-4 AUX di P con 3-4 di PX ([de68342](https://github.com/eca-automs/MC-POL48MIAE-06/commit/de68342))
+
+
+
 <a name="0.1.3"></a>
 ## <small>0.1.3 (2018-05-28)</small>
 

@@ -1115,7 +1115,7 @@ AcDbViewportTableRecord
  21
 1
  12
-264.6639053254438
+235.491124260355
  22
 150.2573964497041
  13
@@ -1145,7 +1145,7 @@ AcDbViewportTableRecord
  40
 304.0295857988166
  41
-2.064739884393064
+1.680924855491329
  42
 50
  43
@@ -2729,7 +2729,7 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-*D2
+*D1
  70
     0
 280
@@ -2747,7 +2747,7 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-*D3
+*D2
  70
     0
 280
@@ -2765,7 +2765,7 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-*D1
+*D3
  70
     0
 280
@@ -4183,6 +4183,130 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
+*D1
+ 70
+    1
+ 10
+0
+ 20
+0
+  3
+*D1
+  1
+
+  0
+LINE
+  5
+138
+100
+AcDbEntity
+  8
+labels
+  6
+CONTINUOUS
+ 62
+    7
+370
+    0
+100
+AcDbLine
+ 10
+334.5899125220079
+ 20
+247.5782134211525
+ 11
+348.1447277414496
+ 21
+267.5537305866455
+  0
+LINE
+  5
+139
+100
+AcDbEntity
+  8
+labels
+  6
+CONTINUOUS
+ 62
+    7
+370
+    0
+100
+AcDbLine
+ 10
+348.1447277414496
+ 20
+267.5537305866455
+ 11
+397.0134036641736
+ 21
+267.5537305866455
+  0
+SOLID
+  5
+13A
+100
+AcDbEntity
+  8
+labels
+  6
+CONTINUOUS
+ 62
+    7
+370
+    0
+100
+AcDbTrace
+ 10
+334.5899125220079
+ 20
+247.5782134211525
+ 30
+0
+ 11
+335.6492005982931
+ 21
+249.8806472829034
+ 31
+0
+ 12
+336.3381315374091
+ 22
+249.4131584313604
+ 32
+0
+ 13
+336.3381315374091
+ 23
+249.4131584313604
+ 33
+0
+  0
+ENDBLK
+  5
+56
+330
+54
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+58
+330
+57
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
 *D2
  70
     1
@@ -4197,7 +4321,7 @@ AcDbBlockBegin
   0
 LINE
   5
-138
+13B
 100
 AcDbEntity
   8
@@ -4221,7 +4345,7 @@ AcDbLine
   0
 SOLID
   5
-139
+13C
 100
 AcDbEntity
   8
@@ -4261,9 +4385,9 @@ AcDbTrace
   0
 ENDBLK
   5
-56
+59
 330
-54
+57
 100
 AcDbEntity
   8
@@ -4273,9 +4397,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-58
+5B
 330
-57
+5A
 100
 AcDbEntity
   8
@@ -4297,7 +4421,7 @@ AcDbBlockBegin
   0
 LINE
   5
-13A
+13D
 100
 AcDbEntity
   8
@@ -4321,7 +4445,7 @@ AcDbLine
   0
 SOLID
   5
-13B
+13E
 100
 AcDbEntity
   8
@@ -4356,130 +4480,6 @@ AcDbTrace
 157.84911601871
  23
 42.38515543950455
- 33
-0
-  0
-ENDBLK
-  5
-59
-330
-57
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockEnd
-  0
-BLOCK
-  5
-5B
-330
-5A
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockBegin
-  2
-*D1
- 70
-    1
- 10
-0
- 20
-0
-  3
-*D1
-  1
-
-  0
-LINE
-  5
-13C
-100
-AcDbEntity
-  8
-labels
-  6
-CONTINUOUS
- 62
-    7
-370
-    0
-100
-AcDbLine
- 10
-334.5899125220079
- 20
-247.5782134211525
- 11
-348.1447277414496
- 21
-267.5537305866455
-  0
-LINE
-  5
-13D
-100
-AcDbEntity
-  8
-labels
-  6
-CONTINUOUS
- 62
-    7
-370
-    0
-100
-AcDbLine
- 10
-348.1447277414496
- 20
-267.5537305866455
- 11
-397.0134036641736
- 21
-267.5537305866455
-  0
-SOLID
-  5
-13E
-100
-AcDbEntity
-  8
-labels
-  6
-CONTINUOUS
- 62
-    7
-370
-    0
-100
-AcDbTrace
- 10
-334.5899125220079
- 20
-247.5782134211525
- 30
-0
- 11
-335.6492005982931
- 21
-249.8806472829034
- 31
-0
- 12
-336.3381315374091
- 22
-249.4131584313604
- 32
-0
- 13
-336.3381315374091
- 23
-249.4131584313604
  33
 0
   0
@@ -26999,46 +26999,6 @@ ByLayer
 100
 AcDbBlockReference
   2
-Switch-2
- 10
-228.1890059385133
- 20
-244.7691133618407
- 30
-0
- 41
-0.8
- 42
-0.8
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-0
- 45
-0
-  0
-INSERT
-  5
-3AF
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
 Switch-5
  10
 131.4047180691253
@@ -27065,7 +27025,7 @@ Switch-5
   0
 INSERT
   5
-3B0
+3AF
 100
 AcDbEntity
   8
@@ -27105,7 +27065,7 @@ Switch-6
   0
 INSERT
   5
-3B1
+3B0
 100
 AcDbEntity
   8
@@ -27145,7 +27105,7 @@ junction-3
   0
 INSERT
   5
-3B2
+3B1
 100
 AcDbEntity
   8
@@ -27185,7 +27145,7 @@ junction-2
   0
 INSERT
   5
-3B3
+3B2
 100
 AcDbEntity
   8
@@ -27225,7 +27185,7 @@ junction-1
   0
 INSERT
   5
-3B4
+3B3
 100
 AcDbEntity
   8
@@ -27265,7 +27225,7 @@ junction-6
   0
 INSERT
   5
-3B5
+3B4
 100
 AcDbEntity
   8
@@ -27305,7 +27265,7 @@ junction-5
   0
 INSERT
   5
-3B6
+3B5
 100
 AcDbEntity
   8
@@ -27345,7 +27305,7 @@ junction-12
   0
 INSERT
   5
-3B7
+3B6
 100
 AcDbEntity
   8
@@ -27385,7 +27345,7 @@ junction
   0
 INSERT
   5
-3B8
+3B7
 100
 AcDbEntity
   8
@@ -27425,7 +27385,7 @@ junction-0
   0
 LINE
   5
-3B9
+3B8
 100
 AcDbEntity
   8
@@ -27449,7 +27409,7 @@ AcDbLine
   0
 INSERT
   5
-3BA
+3B9
 100
 AcDbEntity
   8
@@ -27489,7 +27449,7 @@ mcp2014x-connector-0
   0
 INSERT
   5
-3BB
+3BA
 100
 AcDbEntity
   8
@@ -27529,7 +27489,7 @@ mcp2014x-connector
   0
 INSERT
   5
-3BC
+3BB
 100
 AcDbEntity
   8
@@ -27569,7 +27529,7 @@ mcp2014x-connector-1
   0
 INSERT
   5
-3BD
+3BC
 100
 AcDbEntity
   8
@@ -27609,7 +27569,7 @@ mcp2014x-connector-2
   0
 INSERT
   5
-3BE
+3BD
 100
 AcDbEntity
   8
@@ -27649,7 +27609,7 @@ mcp2014x-connector-3
   0
 INSERT
   5
-3BF
+3BE
 100
 AcDbEntity
   8
@@ -27689,7 +27649,7 @@ mcp2014x-connector-4
   0
 MTEXT
   5
-3C0
+3BF
 100
 AcDbEntity
   8
@@ -27735,7 +27695,7 @@ standard
   0
 MTEXT
   5
-3C1
+3C0
 100
 AcDbEntity
   8
@@ -27781,7 +27741,7 @@ standard
   0
 MTEXT
   5
-3C2
+3C1
 100
 AcDbEntity
   8
@@ -27827,7 +27787,7 @@ standard
   0
 MTEXT
   5
-3C3
+3C2
 100
 AcDbEntity
   8
@@ -27873,7 +27833,7 @@ standard
   0
 MTEXT
   5
-3C4
+3C3
 100
 AcDbEntity
   8
@@ -27919,7 +27879,7 @@ standard
   0
 LINE
   5
-3C5
+3C4
 100
 AcDbEntity
   8
@@ -27943,7 +27903,7 @@ AcDbLine
   0
 LINE
   5
-3C6
+3C5
 100
 AcDbEntity
   8
@@ -27967,7 +27927,7 @@ AcDbLine
   0
 LINE
   5
-3C7
+3C6
 100
 AcDbEntity
   8
@@ -27991,7 +27951,7 @@ AcDbLine
   0
 LINE
   5
-3C8
+3C7
 100
 AcDbEntity
   8
@@ -28015,7 +27975,7 @@ AcDbLine
   0
 INSERT
   5
-3C9
+3C8
 100
 AcDbEntity
   8
@@ -28055,7 +28015,7 @@ mcp2014x-connector-5
   0
 MTEXT
   5
-3CA
+3C9
 100
 AcDbEntity
   8
@@ -28101,7 +28061,7 @@ standard
   0
 MTEXT
   5
-3CB
+3CA
 100
 AcDbEntity
   8
@@ -28147,7 +28107,7 @@ standard
   0
 LINE
   5
-3CC
+3CB
 100
 AcDbEntity
   8
@@ -28168,6 +28128,30 @@ AcDbLine
 205.6343758885534
  21
 214.2575638277992
+  0
+LINE
+  5
+3CC
+100
+AcDbEntity
+  8
+schematic
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+205.6343758885534
+ 20
+214.2575638277992
+ 11
+207.6394158538793
+ 21
+216.3707572264444
   0
 LINE
   5
@@ -28185,30 +28169,6 @@ ByLayer
 100
 AcDbLine
  10
-205.6343758885534
- 20
-214.2575638277992
- 11
-207.6394158538793
- 21
-216.3707572264444
-  0
-LINE
-  5
-3CE
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
 207.6394158538793
  20
 216.3707572264444
@@ -28219,7 +28179,7 @@ AcDbLine
   0
 LINE
   5
-3CF
+3CE
 100
 AcDbEntity
   8
@@ -28243,7 +28203,7 @@ AcDbLine
   0
 LINE
   5
-3D0
+3CF
 100
 AcDbEntity
   8
@@ -28267,7 +28227,7 @@ AcDbLine
   0
 LINE
   5
-3D1
+3D0
 100
 AcDbEntity
   8
@@ -28291,7 +28251,7 @@ AcDbLine
   0
 MTEXT
   5
-3D2
+3D1
 100
 AcDbEntity
   8
@@ -28337,7 +28297,7 @@ standard
   0
 MTEXT
   5
-3D3
+3D2
 100
 AcDbEntity
   8
@@ -28383,7 +28343,7 @@ standard
   0
 MTEXT
   5
-3D4
+3D3
 100
 AcDbEntity
   8
@@ -28429,7 +28389,7 @@ standard
   0
 MTEXT
   5
-3D5
+3D4
 100
 AcDbEntity
   8
@@ -28475,7 +28435,7 @@ standard
   0
 MTEXT
   5
-3D6
+3D5
 100
 AcDbEntity
   8
@@ -28521,7 +28481,7 @@ standard
   0
 MTEXT
   5
-3D7
+3D6
 100
 AcDbEntity
   8
@@ -28567,7 +28527,7 @@ standard
   0
 MTEXT
   5
-3D8
+3D7
 100
 AcDbEntity
   8
@@ -28613,7 +28573,7 @@ standard
   0
 MTEXT
   5
-3D9
+3D8
 100
 AcDbEntity
   8
@@ -28659,7 +28619,7 @@ standard
   0
 MTEXT
   5
-3DA
+3D9
 100
 AcDbEntity
   8
@@ -28705,7 +28665,7 @@ standard
   0
 MTEXT
   5
-3DB
+3DA
 100
 AcDbEntity
   8
@@ -28751,7 +28711,7 @@ standard
   0
 MTEXT
   5
-3DC
+3DB
 100
 AcDbEntity
   8
@@ -28797,7 +28757,7 @@ standard
   0
 MTEXT
   5
-3DD
+3DC
 100
 AcDbEntity
   8
@@ -28843,7 +28803,7 @@ standard
   0
 MTEXT
   5
-3DE
+3DD
 100
 AcDbEntity
   8
@@ -28889,7 +28849,7 @@ standard
   0
 MTEXT
   5
-3DF
+3DE
 100
 AcDbEntity
   8
@@ -28935,7 +28895,7 @@ standard
   0
 MTEXT
   5
-3E0
+3DF
 100
 AcDbEntity
   8
@@ -28981,7 +28941,7 @@ standard
   0
 MTEXT
   5
-3E1
+3E0
 100
 AcDbEntity
   8
@@ -29027,7 +28987,7 @@ standard
   0
 LINE
   5
-3E2
+3E1
 100
 AcDbEntity
   8
@@ -29051,7 +29011,7 @@ AcDbLine
   0
 LINE
   5
-3E3
+3E2
 100
 AcDbEntity
   8
@@ -29070,6 +29030,30 @@ AcDbLine
 232.0867670434725
  11
 38.14636861606343
+ 21
+232.0867670434725
+  0
+LINE
+  5
+3E3
+100
+AcDbEntity
+  8
+schematic
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+38.14636861606343
+ 20
+232.0867670434725
+ 11
+42.94636861606343
  21
 232.0867670434725
   0
@@ -29089,13 +29073,13 @@ ByLayer
 100
 AcDbLine
  10
-38.14636861606343
+42.94636861606343
  20
 232.0867670434725
  11
-42.94636861606343
+40.54636861606343
  21
-232.0867670434725
+228.8867670434725
   0
 LINE
   5
@@ -29113,13 +29097,13 @@ ByLayer
 100
 AcDbLine
  10
-42.94636861606343
- 20
-232.0867670434725
- 11
 40.54636861606343
- 21
+ 20
 228.8867670434725
+ 11
+38.14636861606343
+ 21
+232.0867670434725
   0
 LINE
   5
@@ -29137,11 +29121,11 @@ ByLayer
 100
 AcDbLine
  10
-40.54636861606343
+64.54636861606343
  20
-228.8867670434725
+244.8867670434725
  11
-38.14636861606343
+64.54636861606343
  21
 232.0867670434725
   0
@@ -29163,9 +29147,9 @@ AcDbLine
  10
 64.54636861606343
  20
-244.8867670434725
+232.0867670434725
  11
-64.54636861606343
+62.14636861606343
  21
 232.0867670434725
   0
@@ -29185,11 +29169,11 @@ ByLayer
 100
 AcDbLine
  10
-64.54636861606343
+62.14636861606343
  20
 232.0867670434725
  11
-62.14636861606343
+66.94636861606344
  21
 232.0867670434725
   0
@@ -29209,13 +29193,13 @@ ByLayer
 100
 AcDbLine
  10
-62.14636861606343
+66.94636861606344
  20
 232.0867670434725
  11
-66.94636861606344
+64.54636861606343
  21
-232.0867670434725
+228.8867670434725
   0
 LINE
   5
@@ -29233,13 +29217,13 @@ ByLayer
 100
 AcDbLine
  10
-66.94636861606344
- 20
-232.0867670434725
- 11
 64.54636861606343
- 21
+ 20
 228.8867670434725
+ 11
+62.14636861606343
+ 21
+232.0867670434725
   0
 LINE
   5
@@ -29257,11 +29241,11 @@ ByLayer
 100
 AcDbLine
  10
-64.54636861606343
+106.9463686160634
  20
-228.8867670434725
+244.8867670434725
  11
-62.14636861606343
+106.9463686160634
  21
 232.0867670434725
   0
@@ -29283,9 +29267,9 @@ AcDbLine
  10
 106.9463686160634
  20
-244.8867670434725
+232.0867670434725
  11
-106.9463686160634
+104.5463686160634
  21
 232.0867670434725
   0
@@ -29305,11 +29289,11 @@ ByLayer
 100
 AcDbLine
  10
-106.9463686160634
+104.5463686160634
  20
 232.0867670434725
  11
-104.5463686160634
+109.3463686160634
  21
 232.0867670434725
   0
@@ -29329,13 +29313,13 @@ ByLayer
 100
 AcDbLine
  10
-104.5463686160634
+109.3463686160634
  20
 232.0867670434725
  11
-109.3463686160634
+106.9463686160634
  21
-232.0867670434725
+228.8867670434725
   0
 LINE
   5
@@ -29353,13 +29337,13 @@ ByLayer
 100
 AcDbLine
  10
-109.3463686160634
- 20
-232.0867670434725
- 11
 106.9463686160634
- 21
+ 20
 228.8867670434725
+ 11
+104.5463686160634
+ 21
+232.0867670434725
   0
 LINE
   5
@@ -29377,11 +29361,11 @@ ByLayer
 100
 AcDbLine
  10
-106.9463686160634
+131.7463686160634
  20
-228.8867670434725
+244.8867670434725
  11
-104.5463686160634
+131.7463686160634
  21
 232.0867670434725
   0
@@ -29403,9 +29387,9 @@ AcDbLine
  10
 131.7463686160634
  20
-244.8867670434725
+232.0867670434725
  11
-131.7463686160634
+129.3463686160634
  21
 232.0867670434725
   0
@@ -29425,11 +29409,11 @@ ByLayer
 100
 AcDbLine
  10
-131.7463686160634
+129.3463686160634
  20
 232.0867670434725
  11
-129.3463686160634
+134.1463686160634
  21
 232.0867670434725
   0
@@ -29449,13 +29433,13 @@ ByLayer
 100
 AcDbLine
  10
-129.3463686160634
+134.1463686160634
  20
 232.0867670434725
  11
-134.1463686160634
+131.7463686160634
  21
-232.0867670434725
+228.8867670434725
   0
 LINE
   5
@@ -29473,13 +29457,13 @@ ByLayer
 100
 AcDbLine
  10
-134.1463686160634
- 20
-232.0867670434725
- 11
 131.7463686160634
- 21
+ 20
 228.8867670434725
+ 11
+129.3463686160634
+ 21
+232.0867670434725
   0
 LINE
   5
@@ -29497,11 +29481,11 @@ ByLayer
 100
 AcDbLine
  10
-131.7463686160634
+155.7463686160634
  20
-228.8867670434725
+244.8867670434725
  11
-129.3463686160634
+155.7463686160634
  21
 232.0867670434725
   0
@@ -29523,9 +29507,9 @@ AcDbLine
  10
 155.7463686160634
  20
-244.8867670434725
+232.0867670434725
  11
-155.7463686160634
+153.3463686160634
  21
 232.0867670434725
   0
@@ -29545,11 +29529,11 @@ ByLayer
 100
 AcDbLine
  10
-155.7463686160634
+153.3463686160634
  20
 232.0867670434725
  11
-153.3463686160634
+158.1463686160634
  21
 232.0867670434725
   0
@@ -29569,13 +29553,13 @@ ByLayer
 100
 AcDbLine
  10
-153.3463686160634
+158.1463686160634
  20
 232.0867670434725
  11
-158.1463686160634
+155.7463686160634
  21
-232.0867670434725
+228.8867670434725
   0
 LINE
   5
@@ -29593,30 +29577,6 @@ ByLayer
 100
 AcDbLine
  10
-158.1463686160634
- 20
-232.0867670434725
- 11
-155.7463686160634
- 21
-228.8867670434725
-  0
-LINE
-  5
-3FA
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
 155.7463686160634
  20
 228.8867670434725
@@ -29627,7 +29587,7 @@ AcDbLine
   0
 LINE
   5
-3FB
+3FA
 100
 AcDbEntity
   8
@@ -29651,7 +29611,7 @@ AcDbLine
   0
 LINE
   5
-3FC
+3FB
 100
 AcDbEntity
   8
@@ -29670,6 +29630,30 @@ AcDbLine
 232.8867670434725
  11
 178.1463686160634
+ 21
+232.8867670434725
+  0
+LINE
+  5
+3FC
+100
+AcDbEntity
+  8
+schematic
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+178.1463686160634
+ 20
+232.8867670434725
+ 11
+182.9463686160634
  21
 232.8867670434725
   0
@@ -29689,13 +29673,13 @@ ByLayer
 100
 AcDbLine
  10
-178.1463686160634
+182.9463686160634
  20
 232.8867670434725
  11
-182.9463686160634
+180.5463686160634
  21
-232.8867670434725
+229.6867670434725
   0
 LINE
   5
@@ -29713,13 +29697,13 @@ ByLayer
 100
 AcDbLine
  10
-182.9463686160634
- 20
-232.8867670434725
- 11
 180.5463686160634
- 21
+ 20
 229.6867670434725
+ 11
+178.1463686160634
+ 21
+232.8867670434725
   0
 LINE
   5
@@ -29737,11 +29721,11 @@ ByLayer
 100
 AcDbLine
  10
-180.5463686160634
+204.5463686160634
  20
-229.6867670434725
+245.6867670434725
  11
-178.1463686160634
+204.5463686160634
  21
 232.8867670434725
   0
@@ -29763,9 +29747,9 @@ AcDbLine
  10
 204.5463686160634
  20
-245.6867670434725
+232.8867670434725
  11
-204.5463686160634
+202.1463686160635
  21
 232.8867670434725
   0
@@ -29785,11 +29769,11 @@ ByLayer
 100
 AcDbLine
  10
-204.5463686160634
+202.1463686160635
  20
 232.8867670434725
  11
-202.1463686160635
+206.9463686160634
  21
 232.8867670434725
   0
@@ -29809,13 +29793,13 @@ ByLayer
 100
 AcDbLine
  10
-202.1463686160635
+206.9463686160634
  20
 232.8867670434725
  11
-206.9463686160634
+204.5463686160634
  21
-232.8867670434725
+229.6867670434725
   0
 LINE
   5
@@ -29833,30 +29817,6 @@ ByLayer
 100
 AcDbLine
  10
-206.9463686160634
- 20
-232.8867670434725
- 11
-204.5463686160634
- 21
-229.6867670434725
-  0
-LINE
-  5
-404
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
 204.5463686160634
  20
 229.6867670434725
@@ -29867,7 +29827,7 @@ AcDbLine
   0
 LINE
   5
-405
+404
 100
 AcDbEntity
   8
@@ -29891,7 +29851,7 @@ AcDbLine
   0
 LINE
   5
-406
+405
 100
 AcDbEntity
   8
@@ -29915,7 +29875,7 @@ AcDbLine
   0
 LINE
   5
-407
+406
 100
 AcDbEntity
   8
@@ -29939,7 +29899,7 @@ AcDbLine
   0
 LINE
   5
-408
+407
 100
 AcDbEntity
   8
@@ -29963,7 +29923,7 @@ AcDbLine
   0
 LINE
   5
-409
+408
 100
 AcDbEntity
   8
@@ -29987,7 +29947,7 @@ AcDbLine
   0
 INSERT
   5
-40A
+409
 100
 AcDbEntity
   8
@@ -30027,7 +29987,7 @@ r1
   0
 INSERT
   5
-40B
+40A
 100
 AcDbEntity
   8
@@ -30067,7 +30027,7 @@ diodo_bobina
   0
 MTEXT
   5
-40C
+40B
 100
 AcDbEntity
   8
@@ -30113,7 +30073,7 @@ standard
   0
 MTEXT
   5
-40D
+40C
 100
 AcDbEntity
   8
@@ -30159,7 +30119,7 @@ standard
   0
 MTEXT
   5
-40E
+40D
 100
 AcDbEntity
   8
@@ -30205,7 +30165,7 @@ standard
   0
 INSERT
   5
-40F
+40E
 100
 AcDbEntity
   8
@@ -30245,7 +30205,7 @@ mcp2014x-connector
   0
 MTEXT
   5
-410
+40F
 100
 AcDbEntity
   8
@@ -30291,7 +30251,7 @@ standard
   0
 LINE
   5
-411
+410
 100
 AcDbEntity
   8
@@ -30310,6 +30270,30 @@ AcDbLine
 90
  11
 175.0124698796889
+ 21
+80
+  0
+LINE
+  5
+411
+100
+AcDbEntity
+  8
+schematic
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+175.0124698796889
+ 20
+80
+ 11
+205.0124698796889
  21
 80
   0
@@ -30329,13 +30313,13 @@ ByLayer
 100
 AcDbLine
  10
-175.0124698796889
+205.0124698796889
  20
 80
  11
 205.0124698796889
  21
-80
+90
   0
 LINE
   5
@@ -30355,30 +30339,6 @@ AcDbLine
  10
 205.0124698796889
  20
-80
- 11
-205.0124698796889
- 21
-90
-  0
-LINE
-  5
-414
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-205.0124698796889
- 20
 90
  11
 175.0124698796889
@@ -30387,7 +30347,7 @@ AcDbLine
   0
 LINE
   5
-415
+414
 100
 AcDbEntity
   8
@@ -30411,7 +30371,7 @@ AcDbLine
   0
 LINE
   5
-416
+415
 100
 AcDbEntity
   8
@@ -30435,7 +30395,7 @@ AcDbLine
   0
 LINE
   5
-417
+416
 100
 AcDbEntity
   8
@@ -30459,7 +30419,7 @@ AcDbLine
   0
 LINE
   5
-418
+417
 100
 AcDbEntity
   8
@@ -30483,7 +30443,7 @@ AcDbLine
   0
 INSERT
   5
-419
+418
 100
 AcDbEntity
   8
@@ -30523,7 +30483,7 @@ mcp2014x-connector-3
   0
 INSERT
   5
-41A
+419
 100
 AcDbEntity
   8
@@ -30563,7 +30523,7 @@ mcp2014x-connector-3
   0
 LINE
   5
-41B
+41A
 100
 AcDbEntity
   8
@@ -30587,7 +30547,7 @@ AcDbLine
   0
 LINE
   5
-41C
+41B
 100
 AcDbEntity
   8
@@ -30611,7 +30571,7 @@ AcDbLine
   0
 LINE
   5
-41D
+41C
 100
 AcDbEntity
   8
@@ -30635,7 +30595,7 @@ AcDbLine
   0
 LINE
   5
-41E
+41D
 100
 AcDbEntity
   8
@@ -30659,7 +30619,7 @@ AcDbLine
   0
 LINE
   5
-41F
+41E
 100
 AcDbEntity
   8
@@ -30683,7 +30643,7 @@ AcDbLine
   0
 MTEXT
   5
-420
+41F
 100
 AcDbEntity
   8
@@ -30729,7 +30689,7 @@ standard
   0
 MTEXT
   5
-421
+420
 100
 AcDbEntity
   8
@@ -30775,7 +30735,7 @@ standard
   0
 MTEXT
   5
-422
+421
 100
 AcDbEntity
   8
@@ -30821,7 +30781,7 @@ standard
   0
 MTEXT
   5
-423
+422
 100
 AcDbEntity
   8
@@ -30867,7 +30827,7 @@ standard
   0
 LINE
   5
-424
+423
 100
 AcDbEntity
   8
@@ -30891,7 +30851,7 @@ AcDbLine
   0
 LINE
   5
-425
+424
 100
 AcDbEntity
   8
@@ -30915,7 +30875,7 @@ AcDbLine
   0
 INSERT
   5
-426
+425
 100
 AcDbEntity
   8
@@ -30955,7 +30915,7 @@ mcp2014x-connector
   0
 LINE
   5
-427
+426
 100
 AcDbEntity
   8
@@ -30979,7 +30939,7 @@ AcDbLine
   0
 MTEXT
   5
-428
+427
 100
 AcDbEntity
   8
@@ -31025,7 +30985,7 @@ standard
   0
 MTEXT
   5
-429
+428
 100
 AcDbEntity
   8
@@ -31071,7 +31031,7 @@ standard
   0
 INSERT
   5
-42A
+429
 100
 AcDbEntity
   8
@@ -31111,7 +31071,7 @@ Terminal-in
   0
 LINE
   5
-42B
+42A
 100
 AcDbEntity
   8
@@ -31135,7 +31095,7 @@ AcDbLine
   0
 INSERT
   5
-42C
+42B
 100
 AcDbEntity
   8
@@ -31175,7 +31135,7 @@ junction
   0
 MTEXT
   5
-42D
+42C
 100
 AcDbEntity
   8
@@ -31221,7 +31181,7 @@ standard
   0
 INSERT
   5
-42E
+42D
 100
 AcDbEntity
   8
@@ -31261,7 +31221,7 @@ Terminal-in-1
   0
 LINE
   5
-42F
+42E
 100
 AcDbEntity
   8
@@ -31285,7 +31245,7 @@ AcDbLine
   0
 LINE
   5
-430
+42F
 100
 AcDbEntity
   8
@@ -31309,7 +31269,7 @@ AcDbLine
   0
 LINE
   5
-431
+430
 100
 AcDbEntity
   8
@@ -31333,7 +31293,7 @@ AcDbLine
   0
 LINE
   5
-432
+431
 100
 AcDbEntity
   8
@@ -31357,7 +31317,7 @@ AcDbLine
   0
 LINE
   5
-433
+432
 100
 AcDbEntity
   8
@@ -31381,7 +31341,7 @@ AcDbLine
   0
 INSERT
   5
-434
+433
 100
 AcDbEntity
   8
@@ -31421,7 +31381,7 @@ Terminal-in-2
   0
 LINE
   5
-435
+434
 100
 AcDbEntity
   8
@@ -31445,7 +31405,7 @@ AcDbLine
   0
 LINE
   5
-436
+435
 100
 AcDbEntity
   8
@@ -31469,7 +31429,7 @@ AcDbLine
   0
 LINE
   5
-437
+436
 100
 AcDbEntity
   8
@@ -31493,7 +31453,7 @@ AcDbLine
   0
 LINE
   5
-438
+437
 100
 AcDbEntity
   8
@@ -31517,7 +31477,7 @@ AcDbLine
   0
 LINE
   5
-439
+438
 100
 AcDbEntity
   8
@@ -31541,7 +31501,7 @@ AcDbLine
   0
 INSERT
   5
-43A
+439
 100
 AcDbEntity
   8
@@ -31581,7 +31541,7 @@ Terminal-in-3
   0
 LINE
   5
-43B
+43A
 100
 AcDbEntity
   8
@@ -31605,7 +31565,7 @@ AcDbLine
   0
 LINE
   5
-43C
+43B
 100
 AcDbEntity
   8
@@ -31624,6 +31584,30 @@ AcDbLine
 222.6066784346378
  11
 300.1093185780878
+ 21
+222.6066784346378
+  0
+LINE
+  5
+43C
+100
+AcDbEntity
+  8
+schematic
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+300.1093185780878
+ 20
+222.6066784346378
+ 11
+304.9093185780877
  21
 222.6066784346378
   0
@@ -31643,13 +31627,13 @@ ByLayer
 100
 AcDbLine
  10
-300.1093185780878
+304.9093185780877
  20
 222.6066784346378
  11
-304.9093185780877
+302.5093185780877
  21
-222.6066784346378
+219.4066784346377
   0
 LINE
   5
@@ -31667,13 +31651,13 @@ ByLayer
 100
 AcDbLine
  10
-304.9093185780877
- 20
-222.6066784346378
- 11
 302.5093185780877
- 21
+ 20
 219.4066784346377
+ 11
+300.1093185780878
+ 21
+222.6066784346378
   0
 LINE
   5
@@ -31691,13 +31675,13 @@ ByLayer
 100
 AcDbLine
  10
-302.5093185780877
+265.9545506399887
  20
-219.4066784346377
+235.6192351738716
  11
-300.1093185780878
+265.9545506399887
  21
-222.6066784346378
+254.3008429970514
   0
 LINE
   5
@@ -31717,11 +31701,11 @@ AcDbLine
  10
 265.9545506399887
  20
-235.6192351738716
- 11
-265.9545506399887
- 21
 254.3008429970514
+ 11
+302.4386318005514
+ 21
+254.5206266185006
   0
 LINE
   5
@@ -31739,13 +31723,13 @@ ByLayer
 100
 AcDbLine
  10
-265.9545506399887
+302.4386318005514
  20
-254.3008429970514
+254.5206266185006
  11
 302.4386318005514
  21
-254.5206266185006
+246.6084162463303
   0
 LINE
   5
@@ -31765,30 +31749,6 @@ AcDbLine
  10
 302.4386318005514
  20
-254.5206266185006
- 11
-302.4386318005514
- 21
-246.6084162463303
-  0
-LINE
-  5
-443
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-302.4386318005514
- 20
 246.6084162463303
  11
 305.735386122289
@@ -31797,7 +31757,7 @@ AcDbLine
   0
 LINE
   5
-444
+443
 100
 AcDbEntity
   8
@@ -31821,7 +31781,7 @@ AcDbLine
   0
 LINE
   5
-445
+444
 100
 AcDbEntity
   8
@@ -31845,7 +31805,7 @@ AcDbLine
   0
 LINE
   5
-446
+445
 100
 AcDbEntity
   8
@@ -31869,7 +31829,7 @@ AcDbLine
   0
 LINE
   5
-447
+446
 100
 AcDbEntity
   8
@@ -31893,7 +31853,7 @@ AcDbLine
   0
 INSERT
   5
-448
+447
 100
 AcDbEntity
   8
@@ -31933,7 +31893,7 @@ junction-24
   0
 MTEXT
   5
-449
+448
 100
 AcDbEntity
   8
@@ -31979,7 +31939,7 @@ standard
   0
 MTEXT
   5
-44A
+449
 100
 AcDbEntity
   8
@@ -32025,7 +31985,7 @@ standard
   0
 MTEXT
   5
-44B
+44A
 100
 AcDbEntity
   8
@@ -32071,7 +32031,7 @@ standard
   0
 LINE
   5
-44C
+44B
 100
 AcDbEntity
   8
@@ -32095,7 +32055,7 @@ AcDbLine
   0
 INSERT
   5
-44D
+44C
 100
 AcDbEntity
   8
@@ -32135,7 +32095,7 @@ mcp2014x-connector-15
   0
 MTEXT
   5
-44E
+44D
 100
 AcDbEntity
   8
@@ -32181,7 +32141,7 @@ standard
   0
 INSERT
   5
-44F
+44E
 100
 AcDbEntity
   8
@@ -32221,7 +32181,7 @@ mcp2014x-connector-16
   0
 INSERT
   5
-450
+44F
 100
 AcDbEntity
   8
@@ -32261,7 +32221,7 @@ mcp2014x-connector-17
   0
 INSERT
   5
-451
+450
 100
 AcDbEntity
   8
@@ -32301,7 +32261,7 @@ mcp2014x-connector-18
   0
 MTEXT
   5
-452
+451
 100
 AcDbEntity
   8
@@ -32347,7 +32307,7 @@ standard
   0
 MTEXT
   5
-453
+452
 100
 AcDbEntity
   8
@@ -32393,7 +32353,7 @@ standard
   0
 MTEXT
   5
-454
+453
 100
 AcDbEntity
   8
@@ -32439,7 +32399,7 @@ standard
   0
 LINE
   5
-455
+454
 100
 AcDbEntity
   8
@@ -32463,7 +32423,7 @@ AcDbLine
   0
 LINE
   5
-456
+455
 100
 AcDbEntity
   8
@@ -32487,7 +32447,7 @@ AcDbLine
   0
 LINE
   5
-457
+456
 100
 AcDbEntity
   8
@@ -32511,7 +32471,7 @@ AcDbLine
   0
 LINE
   5
-458
+457
 100
 AcDbEntity
   8
@@ -32535,7 +32495,7 @@ AcDbLine
   0
 LINE
   5
-459
+458
 100
 AcDbEntity
   8
@@ -32559,7 +32519,7 @@ AcDbLine
   0
 LINE
   5
-45A
+459
 100
 AcDbEntity
   8
@@ -32583,7 +32543,7 @@ AcDbLine
   0
 LINE
   5
-45B
+45A
 100
 AcDbEntity
   8
@@ -32607,7 +32567,7 @@ AcDbLine
   0
 LINE
   5
-45C
+45B
 100
 AcDbEntity
   8
@@ -32631,7 +32591,7 @@ AcDbLine
   0
 LINE
   5
-45D
+45C
 100
 AcDbEntity
   8
@@ -32655,7 +32615,7 @@ AcDbLine
   0
 LINE
   5
-45E
+45D
 100
 AcDbEntity
   8
@@ -32679,7 +32639,7 @@ AcDbLine
   0
 LINE
   5
-45F
+45E
 100
 AcDbEntity
   8
@@ -32703,7 +32663,7 @@ AcDbLine
   0
 LINE
   5
-460
+45F
 100
 AcDbEntity
   8
@@ -32727,7 +32687,7 @@ AcDbLine
   0
 LINE
   5
-461
+460
 100
 AcDbEntity
   8
@@ -32751,7 +32711,7 @@ AcDbLine
   0
 LINE
   5
-462
+461
 100
 AcDbEntity
   8
@@ -32775,7 +32735,7 @@ AcDbLine
   0
 LINE
   5
-463
+462
 100
 AcDbEntity
   8
@@ -32799,7 +32759,7 @@ AcDbLine
   0
 LINE
   5
-464
+463
 100
 AcDbEntity
   8
@@ -32823,7 +32783,7 @@ AcDbLine
   0
 LINE
   5
-465
+464
 100
 AcDbEntity
   8
@@ -32847,7 +32807,7 @@ AcDbLine
   0
 LINE
   5
-466
+465
 100
 AcDbEntity
   8
@@ -32871,7 +32831,7 @@ AcDbLine
   0
 LINE
   5
-467
+466
 100
 AcDbEntity
   8
@@ -32895,7 +32855,7 @@ AcDbLine
   0
 INSERT
   5
-468
+467
 100
 AcDbEntity
   8
@@ -32935,7 +32895,7 @@ diodo_bobina-0
   0
 LINE
   5
-469
+468
 100
 AcDbEntity
   8
@@ -32959,7 +32919,7 @@ AcDbLine
   0
 LINE
   5
-46A
+469
 100
 AcDbEntity
   8
@@ -32983,7 +32943,7 @@ AcDbLine
   0
 LINE
   5
-46B
+46A
 100
 AcDbEntity
   8
@@ -33007,7 +32967,7 @@ AcDbLine
   0
 MTEXT
   5
-46C
+46B
 100
 AcDbEntity
   8
@@ -33053,7 +33013,7 @@ standard
   0
 MTEXT
   5
-46D
+46C
 100
 AcDbEntity
   8
@@ -33099,7 +33059,7 @@ standard
   0
 LINE
   5
-46E
+46D
 100
 AcDbEntity
   8
@@ -33123,7 +33083,7 @@ AcDbLine
   0
 LINE
   5
-46F
+46E
 100
 AcDbEntity
   8
@@ -33147,7 +33107,7 @@ AcDbLine
   0
 LINE
   5
-470
+46F
 100
 AcDbEntity
   8
@@ -33171,7 +33131,7 @@ AcDbLine
   0
 MTEXT
   5
-471
+470
 100
 AcDbEntity
   8
@@ -33217,7 +33177,7 @@ standard
   0
 MTEXT
   5
-472
+471
 100
 AcDbEntity
   8
@@ -33263,7 +33223,7 @@ standard
   0
 MTEXT
   5
-473
+472
 100
 AcDbEntity
   8
@@ -33309,7 +33269,7 @@ standard
   0
 LINE
   5
-474
+473
 100
 AcDbEntity
   8
@@ -33333,7 +33293,7 @@ AcDbLine
   0
 LINE
   5
-475
+474
 100
 AcDbEntity
   8
@@ -33357,7 +33317,7 @@ AcDbLine
   0
 LINE
   5
-476
+475
 100
 AcDbEntity
   8
@@ -33381,7 +33341,7 @@ AcDbLine
   0
 INSERT
   5
-477
+476
 100
 AcDbEntity
   8
@@ -33421,7 +33381,7 @@ Terminal-in-4
   0
 MTEXT
   5
-478
+477
 100
 AcDbEntity
   8
@@ -33467,7 +33427,7 @@ standard
   0
 MTEXT
   5
-479
+478
 100
 AcDbEntity
   8
@@ -33513,7 +33473,7 @@ standard
   0
 INSERT
   5
-47A
+479
 100
 AcDbEntity
   8
@@ -33553,7 +33513,7 @@ junction-14
   0
 INSERT
   5
-47B
+47A
 100
 AcDbEntity
   8
@@ -33593,7 +33553,7 @@ r1
   0
 INSERT
   5
-47C
+47B
 100
 AcDbEntity
   8
@@ -33633,7 +33593,7 @@ diodo_bobina
   0
 MTEXT
   5
-47D
+47C
 100
 AcDbEntity
   8
@@ -33679,7 +33639,7 @@ standard
   0
 MTEXT
   5
-47E
+47D
 100
 AcDbEntity
   8
@@ -33725,7 +33685,7 @@ standard
   0
 LINE
   5
-47F
+47E
 100
 AcDbEntity
   8
@@ -33749,7 +33709,7 @@ AcDbLine
   0
 LINE
   5
-480
+47F
 100
 AcDbEntity
   8
@@ -33773,7 +33733,7 @@ AcDbLine
   0
 LINE
   5
-481
+480
 100
 AcDbEntity
   8
@@ -33797,7 +33757,7 @@ AcDbLine
   0
 LINE
   5
-482
+481
 100
 AcDbEntity
   8
@@ -33821,7 +33781,7 @@ AcDbLine
   0
 MTEXT
   5
-483
+482
 100
 AcDbEntity
   8
@@ -33867,7 +33827,7 @@ standard
   0
 MTEXT
   5
-484
+483
 100
 AcDbEntity
   8
@@ -33913,7 +33873,7 @@ standard
   0
 LEADER
   5
-485
+484
 100
 AcDbEntity
   8
@@ -33961,7 +33921,7 @@ Standard
   0
 LWPOLYLINE
   5
-486
+485
 100
 AcDbEntity
   8
@@ -34003,7 +33963,7 @@ AcDbPolyline
   0
 LINE
   5
-487
+486
 100
 AcDbEntity
   8
@@ -34027,7 +33987,7 @@ AcDbLine
   0
 MTEXT
   5
-488
+487
 100
 AcDbEntity
   8
@@ -34073,7 +34033,7 @@ standard
   0
 LINE
   5
-489
+488
 100
 AcDbEntity
   8
@@ -34097,7 +34057,7 @@ AcDbLine
   0
 LINE
   5
-48A
+489
 100
 AcDbEntity
   8
@@ -34121,7 +34081,7 @@ AcDbLine
   0
 LINE
   5
-48B
+48A
 100
 AcDbEntity
   8
@@ -34145,7 +34105,7 @@ AcDbLine
   0
 LINE
   5
-48C
+48B
 100
 AcDbEntity
   8
@@ -34169,7 +34129,7 @@ AcDbLine
   0
 LINE
   5
-48D
+48C
 100
 AcDbEntity
   8
@@ -34193,7 +34153,7 @@ AcDbLine
   0
 LINE
   5
-48E
+48D
 100
 AcDbEntity
   8
@@ -34217,7 +34177,7 @@ AcDbLine
   0
 LINE
   5
-48F
+48E
 100
 AcDbEntity
   8
@@ -34241,7 +34201,7 @@ AcDbLine
   0
 LINE
   5
-490
+48F
 100
 AcDbEntity
   8
@@ -34265,7 +34225,7 @@ AcDbLine
   0
 LINE
   5
-491
+490
 100
 AcDbEntity
   8
@@ -34289,7 +34249,7 @@ AcDbLine
   0
 LINE
   5
-492
+491
 100
 AcDbEntity
   8
@@ -34313,7 +34273,7 @@ AcDbLine
   0
 LINE
   5
-493
+492
 100
 AcDbEntity
   8
@@ -34337,7 +34297,7 @@ AcDbLine
   0
 MTEXT
   5
-494
+493
 100
 AcDbEntity
   8
@@ -34383,7 +34343,7 @@ standard
   0
 MTEXT
   5
-495
+494
 100
 AcDbEntity
   8
@@ -34429,7 +34389,7 @@ standard
   0
 MTEXT
   5
-496
+495
 100
 AcDbEntity
   8
@@ -34475,7 +34435,7 @@ standard
   0
 MTEXT
   5
-497
+496
 100
 AcDbEntity
   8
@@ -34521,7 +34481,7 @@ standard
   0
 MTEXT
   5
-498
+497
 100
 AcDbEntity
   8
@@ -34567,7 +34527,7 @@ standard
   0
 LINE
   5
-499
+498
 100
 AcDbEntity
   8
@@ -34591,7 +34551,7 @@ AcDbLine
   0
 LINE
   5
-49A
+499
 100
 AcDbEntity
   8
@@ -34615,7 +34575,7 @@ AcDbLine
   0
 LINE
   5
-49B
+49A
 100
 AcDbEntity
   8
@@ -34639,7 +34599,7 @@ AcDbLine
   0
 INSERT
   5
-49C
+49B
 100
 AcDbEntity
   8
@@ -34679,7 +34639,7 @@ junction
   0
 INSERT
   5
-49D
+49C
 100
 AcDbEntity
   8
@@ -34719,7 +34679,7 @@ junction
   0
 INSERT
   5
-49E
+49D
 100
 AcDbEntity
   8
@@ -34759,7 +34719,7 @@ junction
   0
 INSERT
   5
-49F
+49E
 100
 AcDbEntity
   8
@@ -34799,7 +34759,7 @@ junction
   0
 INSERT
   5
-4A0
+49F
 100
 AcDbEntity
   8
@@ -34839,7 +34799,7 @@ junction
   0
 INSERT
   5
-4A1
+4A0
 100
 AcDbEntity
   8
@@ -34879,7 +34839,7 @@ junction
   0
 MTEXT
   5
-4A2
+4A1
 100
 AcDbEntity
   8
@@ -34925,7 +34885,7 @@ standard
   0
 LEADER
   5
-4A3
+4A2
 100
 AcDbEntity
   8
@@ -34973,7 +34933,7 @@ Standard
   0
 MTEXT
   5
-4A4
+4A3
 100
 AcDbEntity
   8
@@ -35019,7 +34979,7 @@ standard
   0
 INSERT
   5
-4A5
+4A4
 100
 AcDbEntity
   8
@@ -35059,7 +35019,7 @@ Terminal-in
   0
 INSERT
   5
-4A6
+4A5
 100
 AcDbEntity
   8
@@ -35099,7 +35059,7 @@ mcp2014x-connector-1
   0
 LINE
   5
-4A7
+4A6
 100
 AcDbEntity
   8
@@ -35123,7 +35083,7 @@ AcDbLine
   0
 INSERT
   5
-4A8
+4A7
 100
 AcDbEntity
   8
@@ -35163,7 +35123,7 @@ AcDbBlockReference
   0
 MTEXT
   5
-4A9
+4A8
 100
 AcDbEntity
   8
@@ -35209,7 +35169,7 @@ standard
   0
 INSERT
   5
-4AA
+4A9
 100
 AcDbEntity
   8
@@ -35249,7 +35209,7 @@ Terminal-in
   0
 INSERT
   5
-4AB
+4AA
 100
 AcDbEntity
   8
@@ -35289,7 +35249,7 @@ mcp2014x-connector-1
   0
 LINE
   5
-4AC
+4AB
 100
 AcDbEntity
   8
@@ -35313,7 +35273,7 @@ AcDbLine
   0
 INSERT
   5
-4AD
+4AC
 100
 AcDbEntity
   8
@@ -35353,7 +35313,7 @@ AcDbBlockReference
   0
 MTEXT
   5
-4AE
+4AD
 100
 AcDbEntity
   8
@@ -35399,7 +35359,7 @@ standard
   0
 MTEXT
   5
-4AF
+4AE
 100
 AcDbEntity
   8
@@ -35445,7 +35405,7 @@ standard
   0
 MTEXT
   5
-4B0
+4AF
 100
 AcDbEntity
   8
@@ -35491,7 +35451,7 @@ standard
   0
 MTEXT
   5
-4B1
+4B0
 100
 AcDbEntity
   8
@@ -35537,7 +35497,7 @@ standard
   0
 MTEXT
   5
-4B2
+4B1
 100
 AcDbEntity
   8
@@ -35583,7 +35543,7 @@ standard
   0
 MTEXT
   5
-4B3
+4B2
 100
 AcDbEntity
   8
@@ -35629,7 +35589,7 @@ standard
   0
 MTEXT
   5
-4B4
+4B3
 100
 AcDbEntity
   8
@@ -35675,7 +35635,7 @@ standard
   0
 MTEXT
   5
-4B5
+4B4
 100
 AcDbEntity
   8
@@ -35721,7 +35681,7 @@ standard
   0
 LINE
   5
-4B6
+4B5
 100
 AcDbEntity
   8
@@ -35745,7 +35705,7 @@ AcDbLine
   0
 LINE
   5
-4B7
+4B6
 100
 AcDbEntity
   8
@@ -35769,7 +35729,7 @@ AcDbLine
   0
 LINE
   5
-4B8
+4B7
 100
 AcDbEntity
   8
@@ -35793,7 +35753,7 @@ AcDbLine
   0
 LINE
   5
-4B9
+4B8
 100
 AcDbEntity
   8
@@ -35817,7 +35777,7 @@ AcDbLine
   0
 LINE
   5
-4BA
+4B9
 100
 AcDbEntity
   8
@@ -35841,7 +35801,7 @@ AcDbLine
   0
 INSERT
   5
-4BB
+4BA
 100
 AcDbEntity
   8
@@ -35881,7 +35841,7 @@ mcp2014x-connector
   0
 INSERT
   5
-4BC
+4BB
 100
 AcDbEntity
   8
@@ -35921,7 +35881,7 @@ mcp2014x-connector
   0
 INSERT
   5
-4BD
+4BC
 100
 AcDbEntity
   8
@@ -35961,7 +35921,7 @@ mcp2014x-connector
   0
 MTEXT
   5
-4BE
+4BD
 100
 AcDbEntity
   8
@@ -36007,7 +35967,7 @@ standard
   0
 MTEXT
   5
-4BF
+4BE
 100
 AcDbEntity
   8
@@ -36053,7 +36013,7 @@ standard
   0
 MTEXT
   5
-4C0
+4BF
 100
 AcDbEntity
   8
@@ -36099,7 +36059,7 @@ standard
   0
 LINE
   5
-4C1
+4C0
 100
 AcDbEntity
   8
@@ -36123,7 +36083,7 @@ AcDbLine
   0
 LINE
   5
-4C2
+4C1
 100
 AcDbEntity
   8
@@ -36147,7 +36107,7 @@ AcDbLine
   0
 LINE
   5
-4C3
+4C2
 100
 AcDbEntity
   8
@@ -36171,7 +36131,7 @@ AcDbLine
   0
 LINE
   5
-4C4
+4C3
 100
 AcDbEntity
   8
@@ -36195,7 +36155,7 @@ AcDbLine
   0
 LINE
   5
-4C5
+4C4
 100
 AcDbEntity
   8
@@ -36219,7 +36179,7 @@ AcDbLine
   0
 LINE
   5
-4C6
+4C5
 100
 AcDbEntity
   8
@@ -36243,7 +36203,7 @@ AcDbLine
   0
 LINE
   5
-4C7
+4C6
 100
 AcDbEntity
   8
@@ -36267,7 +36227,7 @@ AcDbLine
   0
 LINE
   5
-4C8
+4C7
 100
 AcDbEntity
   8
@@ -36291,7 +36251,7 @@ AcDbLine
   0
 LINE
   5
-4C9
+4C8
 100
 AcDbEntity
   8
@@ -36315,7 +36275,7 @@ AcDbLine
   0
 LINE
   5
-4CA
+4C9
 100
 AcDbEntity
   8
@@ -36339,7 +36299,7 @@ AcDbLine
   0
 INSERT
   5
-4CB
+4CA
 100
 AcDbEntity
   8
@@ -36379,7 +36339,7 @@ junction
   0
 MTEXT
   5
-4CC
+4CB
 100
 AcDbEntity
   8
@@ -36394,6 +36354,52 @@ ByLayer
 AcDbMText
  10
 92.00572351390505
+ 20
+122.2279430973472
+ 30
+0
+ 40
+3
+ 41
+3.000000000000186
+ 71
+    1
+ 72
+    1
+  1
+13
+  7
+standard
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+4CC
+100
+AcDbEntity
+  8
+labels
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+123.0057235139051
  20
 122.2279430973472
  30
@@ -36439,52 +36445,6 @@ ByLayer
 100
 AcDbMText
  10
-123.0057235139051
- 20
-122.2279430973472
- 30
-0
- 40
-3
- 41
-3.000000000000186
- 71
-    1
- 72
-    1
-  1
-13
-  7
-standard
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-4CE
-100
-AcDbEntity
-  8
-labels
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
 92.00572351390505
  20
 108.2279430973472
@@ -36517,7 +36477,7 @@ standard
   0
 MTEXT
   5
-4CF
+4CE
 100
 AcDbEntity
   8
@@ -36563,7 +36523,7 @@ standard
   0
 LINE
   5
-4D0
+4CF
 100
 AcDbEntity
   8
@@ -36587,7 +36547,7 @@ AcDbLine
   0
 LINE
   5
-4D1
+4D0
 100
 AcDbEntity
   8
@@ -36611,7 +36571,7 @@ AcDbLine
   0
 MTEXT
   5
-4D2
+4D1
 100
 AcDbEntity
   8
@@ -36657,7 +36617,7 @@ standard
   0
 MTEXT
   5
-4D3
+4D2
 100
 AcDbEntity
   8
@@ -36703,7 +36663,7 @@ standard
   0
 MTEXT
   5
-4D4
+4D3
 100
 AcDbEntity
   8
@@ -36749,7 +36709,7 @@ standard
   0
 MTEXT
   5
-4D5
+4D4
 100
 AcDbEntity
   8
@@ -36795,7 +36755,7 @@ standard
   0
 MTEXT
   5
-4D6
+4D5
 100
 AcDbEntity
   8
@@ -36841,7 +36801,7 @@ standard
   0
 MTEXT
   5
-4D7
+4D6
 100
 AcDbEntity
   8
@@ -36887,7 +36847,7 @@ standard
   0
 MTEXT
   5
-4D8
+4D7
 100
 AcDbEntity
   8
@@ -36933,7 +36893,7 @@ standard
   0
 MTEXT
   5
-4D9
+4D8
 100
 AcDbEntity
   8
@@ -36979,7 +36939,7 @@ standard
   0
 MTEXT
   5
-4DA
+4D9
 100
 AcDbEntity
   8
@@ -37025,7 +36985,7 @@ standard
   0
 MTEXT
   5
-4DB
+4DA
 100
 AcDbEntity
   8
@@ -37071,7 +37031,7 @@ standard
   0
 MTEXT
   5
-4DC
+4DB
 100
 AcDbEntity
   8
@@ -37117,7 +37077,7 @@ standard
   0
 LWPOLYLINE
   5
-4DD
+4DC
 100
 AcDbEntity
   8
@@ -37159,7 +37119,7 @@ AcDbPolyline
   0
 LINE
   5
-4DE
+4DD
 100
 AcDbEntity
   8
@@ -37183,7 +37143,7 @@ AcDbLine
   0
 MTEXT
   5
-4DF
+4DE
 100
 AcDbEntity
   8
@@ -37229,7 +37189,7 @@ standard
   0
 INSERT
   5
-4E0
+4DF
 100
 AcDbEntity
   8
@@ -37269,7 +37229,7 @@ junction
   0
 INSERT
   5
-4E1
+4E0
 100
 AcDbEntity
   8
@@ -37309,7 +37269,7 @@ junction
   0
 INSERT
   5
-4E2
+4E1
 100
 AcDbEntity
   8
@@ -37349,7 +37309,7 @@ junction
   0
 INSERT
   5
-4E3
+4E2
 100
 AcDbEntity
   8
@@ -37389,7 +37349,7 @@ Terminal-in
   0
 LINE
   5
-4E4
+4E3
 100
 AcDbEntity
   8
@@ -37413,7 +37373,7 @@ AcDbLine
   0
 INSERT
   5
-4E5
+4E4
 100
 AcDbEntity
   8
@@ -37453,7 +37413,7 @@ mcp2014x-connector-5
   0
 MTEXT
   5
-4E6
+4E5
 100
 AcDbEntity
   8
@@ -37499,7 +37459,7 @@ standard
   0
 MTEXT
   5
-4E7
+4E6
 100
 AcDbEntity
   8
@@ -37545,31 +37505,7 @@ standard
   0
 LINE
   5
-4E8
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-249.9463686160635
- 20
-245.3667670434726
- 11
-249.9463686160635
- 21
-232.5667670434726
-  0
-LINE
-  5
-4E9
+4E7
 100
 AcDbEntity
   8
@@ -37593,7 +37529,7 @@ AcDbLine
   0
 LINE
   5
-4EA
+4E8
 100
 AcDbEntity
   8
@@ -37617,7 +37553,7 @@ AcDbLine
   0
 LINE
   5
-4EB
+4E9
 100
 AcDbEntity
   8
@@ -37641,7 +37577,7 @@ AcDbLine
   0
 LINE
   5
-4EC
+4EA
 100
 AcDbEntity
   8
@@ -37665,7 +37601,7 @@ AcDbLine
   0
 INSERT
   5
-4ED
+4EB
 100
 AcDbEntity
   8
@@ -37705,7 +37641,7 @@ mcp2014x-connector-14
   0
 MTEXT
   5
-4EE
+4EC
 100
 AcDbEntity
   8
@@ -37751,7 +37687,7 @@ standard
   0
 LINE
   5
-4EF
+4ED
 100
 AcDbEntity
   8
@@ -37775,7 +37711,7 @@ AcDbLine
   0
 LINE
   5
-4F0
+4EE
 100
 AcDbEntity
   8
@@ -37799,7 +37735,7 @@ AcDbLine
   0
 LINE
   5
-4F1
+4EF
 100
 AcDbEntity
   8
@@ -37823,7 +37759,7 @@ AcDbLine
   0
 LINE
   5
-4F2
+4F0
 100
 AcDbEntity
   8
@@ -37847,7 +37783,7 @@ AcDbLine
   0
 MTEXT
   5
-4F3
+4F1
 100
 AcDbEntity
   8
@@ -37893,7 +37829,7 @@ standard
   0
 MTEXT
   5
-4F4
+4F2
 100
 AcDbEntity
   8
@@ -37939,7 +37875,7 @@ standard
   0
 MTEXT
   5
-4F5
+4F3
 100
 AcDbEntity
   8
@@ -37985,7 +37921,7 @@ standard
   0
 LINE
   5
-4F6
+4F4
 100
 AcDbEntity
   8
@@ -38009,7 +37945,7 @@ AcDbLine
   0
 LINE
   5
-4F7
+4F5
 100
 AcDbEntity
   8
@@ -38033,7 +37969,7 @@ AcDbLine
   0
 LINE
   5
-4F8
+4F6
 100
 AcDbEntity
   8
@@ -38057,99 +37993,7 @@ AcDbLine
   0
 MTEXT
   5
-4F9
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-262.1565780215295
- 20
-163.3429689378587
- 30
-0
- 40
-2
- 41
-9.944444000000125
- 71
-    2
- 72
-    1
-  1
-P\P(AUX 3)
-  7
-standard
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-4FA
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-264.4110529175167
- 20
-168.3580930046603
- 30
-0
- 40
-2.4
- 41
-1.066666666666816
- 71
-    1
- 72
-    1
-  1
-3
-  7
-standard
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-4FB
+4F7
 100
 AcDbEntity
   8
@@ -38195,7 +38039,7 @@ standard
   0
 INSERT
   5
-4FC
+4F8
 100
 AcDbEntity
   8
@@ -38235,7 +38079,7 @@ junction
   0
 INSERT
   5
-4FD
+4F9
 100
 AcDbEntity
   8
@@ -38275,7 +38119,7 @@ junction
   0
 LINE
   5
-4FE
+4FA
 100
 AcDbEntity
   8
@@ -38299,7 +38143,7 @@ AcDbLine
   0
 LINE
   5
-4FF
+4FB
 100
 AcDbEntity
   8
@@ -38323,7 +38167,7 @@ AcDbLine
   0
 LINE
   5
-500
+4FC
 100
 AcDbEntity
   8
@@ -38347,7 +38191,7 @@ AcDbLine
   0
 LINE
   5
-501
+4FD
 100
 AcDbEntity
   8
@@ -38371,7 +38215,7 @@ AcDbLine
   0
 LINE
   5
-502
+4FE
 100
 AcDbEntity
   8
@@ -38395,7 +38239,7 @@ AcDbLine
   0
 LINE
   5
-503
+4FF
 100
 AcDbEntity
   8
@@ -38419,7 +38263,7 @@ AcDbLine
   0
 LINE
   5
-504
+500
 100
 AcDbEntity
   8
@@ -38443,7 +38287,7 @@ AcDbLine
   0
 INSERT
   5
-505
+501
 100
 AcDbEntity
   8
@@ -38483,7 +38327,7 @@ junction
   0
 INSERT
   5
-506
+502
 100
 AcDbEntity
   8
@@ -38523,7 +38367,7 @@ junction
   0
 MTEXT
   5
-507
+503
 100
 AcDbEntity
   8
@@ -38569,7 +38413,7 @@ standard
   0
 MTEXT
   5
-508
+504
 100
 AcDbEntity
   8
@@ -38615,7 +38459,7 @@ standard
   0
 MTEXT
   5
-509
+505
 100
 AcDbEntity
   8
@@ -38661,7 +38505,7 @@ standard
   0
 MTEXT
   5
-50A
+506
 100
 AcDbEntity
   8
@@ -38707,7 +38551,7 @@ standard
   0
 MTEXT
   5
-50B
+507
 100
 AcDbEntity
   8
@@ -38753,7 +38597,7 @@ standard
   0
 MTEXT
   5
-50C
+508
 100
 AcDbEntity
   8
@@ -38796,6 +38640,162 @@ standard
     2
  44
 1
+  0
+MTEXT
+  5
+509
+100
+AcDbEntity
+  8
+schematic
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+263.5555555555555
+ 20
+162
+ 30
+0
+ 40
+2
+ 41
+3.111111111111111
+ 71
+    2
+ 72
+    1
+  1
+PX
+  7
+standard
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+50A
+100
+AcDbEntity
+  8
+schematic
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+265
+ 20
+167.4
+ 30
+0
+ 40
+2.4
+ 41
+1.066666666666816
+ 71
+    1
+ 72
+    1
+  1
+3
+  7
+standard
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+LINE
+  5
+50B
+100
+AcDbEntity
+  8
+schematic
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+249.9839964818846
+ 20
+244.4078861463066
+ 11
+249.9463686160635
+ 21
+232.5667670434726
+  0
+INSERT
+  5
+50C
+100
+AcDbEntity
+  8
+schematic
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+Switch-2
+ 10
+226.0415727284963
+ 20
+244.6518409734881
+ 30
+0
+ 41
+0.8
+ 42
+0.8
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+0
+ 45
+0
   0
 ENDSEC
   0

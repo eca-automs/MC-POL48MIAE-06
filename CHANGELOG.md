@@ -1,3 +1,10 @@
+<a name="0.1.5"></a>
+## <small>0.1.5 (2018-07-23)</small>
+
+* nuovo1 ([8d337c1](https://github.com/eca-automs/MC-POL48MIAE-06/commit/8d337c1))
+
+
+
 <a name="0.1.4"></a>
 ## <small>0.1.4 (2018-05-29)</small>
 
